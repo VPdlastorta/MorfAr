@@ -16,18 +16,15 @@
 		.main-image iframe {margin-left: -384px;}
 }
 @media(max-width: 767px) {
-	.main-image { height: 266px; }
 	.main-image iframe {margin-left: -200px;}
 }
 @media(max-width: 601px) {
-	.main-image { height: 266px; }
 	.main-image iframe {margin-left: -300px;}
 }
 @media(min-width: 1032px) {
 	.main-image { margin-top: -104px; }
 }
-@media(max-width: 414px) {
-	.main-image { height: 266px; }
+@media(max-width: 414px) {266px; }
 	.main-image iframe {margin-left: -188px;}
 }
 

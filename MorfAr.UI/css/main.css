@@ -335,6 +335,7 @@ img.cover-y {height: 100%; width: auto;}
 }
 .food-img {
 	border: solid 5px #3C454F;
+	max-width: 100%;
 	}
 
 p.comments {

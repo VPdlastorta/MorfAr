@@ -163,7 +163,7 @@ a.dropdown-brand-link:hover, a.dropdown-brand-link.active {
   }
 
   .search-box {
-    margin: 0;
+    margin: 0 0 40px 0;
     background-color: #1e1e1e;
   }
   .search-box .container {
@@ -216,23 +216,13 @@ a.dropdown-brand-link:hover, a.dropdown-brand-link.active {
     height: calc(100% - 100px);
   }
 
-  
   .header-banner {
     height: 40px;
   }
 
-  
   .main-container {
     top: 60px;
   }
-
-  
-  .main-image {
-    height: 240px;
-  }
-
- 
-
 }
 
 @media(min-width: 768px) and (max-width: 1031px) {
