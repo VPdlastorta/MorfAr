@@ -226,6 +226,7 @@
     <Compile Include="Models\Domain\ItemTag.cs" />
     <Compile Include="Models\Domain\Location.cs" />
     <Compile Include="Models\Domain\Place.cs" />
+    <Compile Include="Models\Domain\Review.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Domain\Item.cs" />
     <Compile Include="Models\ManageViewModels.cs" />

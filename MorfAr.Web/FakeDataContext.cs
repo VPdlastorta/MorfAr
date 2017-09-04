@@ -31,6 +31,11 @@ namespace MorfAr.Web
                 locationId = 1,
                 locationName = "Rosario, Sta Fe"
             });
+            locations.Add(new Location()
+            {
+                locationId = 2,
+                locationName = "CABA, Bs As"
+            });
 
         }
 
@@ -53,7 +58,7 @@ namespace MorfAr.Web
             items.Add(new Item()
             {
                 itemId = 1,
-                itemName = "Empanada Verdeo"
+                itemName = "Empanada Verdeo",
             });
 
             items.Add(new Item()
