@@ -4,6 +4,7 @@
 .main-image {
   margin-top: 0;
   height: 600px;
+  background: url("../img/bg-morfar.jpg");
 }
 .dropdown-brand .dropdown-menu {
   padding: 0;

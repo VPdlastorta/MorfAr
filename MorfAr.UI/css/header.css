@@ -28,9 +28,6 @@ header .navigation .logged-user button.dropdown-toggle img { width: 34px; height
 .header-nav-sponsor span { display: block;color: #ccc;margin-bottom: 5px;}
 
 @media(min-width: 1032px) {
-	header .brand { height: calc(100% - 16px); }
-	header .brand img { height: 100%; width: auto; }
-}
 
 @media(max-width: 1031px) {
 	header { position: relative; background-color: #000; padding: 5px 0; z-index: 0;}

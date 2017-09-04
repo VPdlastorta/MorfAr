@@ -1,6 +1,7 @@
 .bg-discover { background-color: #3C454F;
 	background-position: center;
 	background-repeat: no-repeat;
+	
 }
 @media(max-width: 1031px) {
 	.bg-discover { background-size: 500px auto; }
