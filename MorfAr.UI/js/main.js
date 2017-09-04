@@ -38,4 +38,20 @@ function doSearch(){
     var searchItem = $('#foodFilter').val();
     var searchLocation = $('#citiesList > option').attr( "locationId" );
     var searchUrl = "http://vpros-dlastorta/MorfAr/api/Item?search="+searchItem+"&locationId="+searchLocation;
+    console.log(searchUrl);
+    var results = $.getJSON(searchUrl, function (data) {
+        var items = [];
+        $.each(data, function (i) {
+            var currentResult = results.responseJSON[i];
+            console.log(currentResult);
+            $(".container.accordion").append('<div class="accordion-section"><a class="accordion-section-title" href="#accordion-'+i+'">'+currentResult.itemName+'</a><div id="accordion-'+i+'" class="accordion-section-content"><div class="row"> <div class="col-md-6">    <p class="place">'+currentResult.place.placeName+'</p><p class="adress">Pellegrini: 1234</p><p class="delivery">¿Tiene delivery?: Si</p><p class="delivery">¿Tiene para llevar?: Si</p><p class="score">8 puntos</p><img class="food-img" src="'+currentResult.itemUrlPhoto+'"></img></div><div class="col-md-6"><p class="score">Comentarios</p>  <p class="comments">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales mollis quam ac tincidunt. Vivamus tincidunt posuere tellus, sed laoreet orci auctor e"</p></div></div>');
+        
+        });
+    });
+
+    
+
+
+
+    
 }

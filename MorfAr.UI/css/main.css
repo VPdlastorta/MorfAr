@@ -429,7 +429,7 @@ body {
 /*----- Section Content -----*/
 .accordion-section-content {
 	padding:15px;
-	display:none;
+	/* display:none; */
 }
 
 
