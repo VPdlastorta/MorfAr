@@ -1,0 +1,516 @@
+﻿[
+  {
+    "itemId": 1,
+    "itemName": "Empanada Verdeo",
+    "itemReviews": [
+      {
+        "reviewId": 1,
+        "score": 7,
+        "comment": "El queso era muy aceitoso"
+      },
+      {
+        "reviewId": 2,
+        "score": 4,
+        "comment": "Le falto verdeo, llego tarde "
+      },
+      {
+        "reviewId": 3,
+        "score": 8,
+        "comment": "Supersabrosas y grasosas"
+      }
+    ],
+    "itemTags": [
+      "empanada",
+      "verdeo"
+    ],
+    "itemUrlFoto": "https://drive.google.com/drive/u/1/folders/0B-Zi2GDk23_7N2ZnVlFsODhqbzg",
+    "place": {
+      "placeId": 1,
+      "placeIsDelivery": true,
+      "placeIsTakeAway": true,
+      "placeName": "La Vasca"
+    }
+  },
+  {
+    "itemId": 2,
+    "itemTags": [
+      "pasta",
+      "marisco",
+      "camaron",
+      "fideo",
+      "mar"
+    ],
+    "itemName": "Fideos con Mariscos",
+    "itemUrlFoto": "https://drive.google.com/open?id=0B-Zi2GDk23_7bnZvS210QmxjZVU",
+    "place": {
+      "placeId": 2,
+      "placeName": "La Marina Mercante",
+      "placeIsDelivery": false,
+      "placeIsTakeAway": false
+    },
+    "itemReviews": [
+      {
+        "reviewId": 4,
+        "score": 10,
+        "comment": "Delicioso Plato"
+      },
+      {
+        "reviewId": 5,
+        "score": 8,
+        "comment": "Muy abundante y rico, un poco caro"
+      },
+      {
+        "reviewId": 6,
+        "score": 7,
+        "comment": "La comida muy buena pero tuvimos que esperar un monton"
+      },
+      {
+        "reviewId": 27,
+        "score": 5,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "itemId": 3,
+    "itemTags": [
+      "fideo",
+      "mixta",
+      "salsa",
+      "pasta"
+    ],
+    "itemName": "Empanada Verdeo",
+    "itemUrlFoto": "https://drive.google.com/open?id=0B-Zi2GDk23_7TnFBTWFVZ3NnYVU",
+    "place": {
+      "placeId": 3,
+      "placeName": "Gianni Cocino",
+      "placeIsDelivery": false,
+      "placeIsTakeAway": true
+    },
+    "itemReviews": [
+      {
+        "reviewId": 7,
+        "score": 8,
+        "comment": "Muy buenas pastas, abundante aunque un poco caro"
+      },
+      {
+        "reviewId": 8,
+        "score": 10,
+        "comment": "Las mejores pastas de Rosario"
+      },
+      {
+        "reviewId": 9,
+        "score": 8,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "itemId": 4,
+    "itemTags": [
+      "pasta",
+      "fideo",
+      "carbonara",
+      "panceta"
+    ],
+    "itemName": "Empanada Verdeo",
+    "itemUrlFoto": "https://drive.google.com/open?id=0B-Zi2GDk23_7aFNXbmpYdUs5b0U",
+    "place": {
+      "placeId": 4,
+      "placeName": "La Piamontesa",
+      "placeIsDelivery": false,
+      "placeIsTakeAway": false
+    },
+    "itemReviews": [
+      {
+        "reviewId": 10,
+        "score": 10,
+        "comment": "las mejores pastas de Rosario"
+      },
+      {
+        "reviewId": 11,
+        "score": 9,
+        "comment": "Super barato y rico!"
+      },
+      {
+        "reviewId": 12,
+        "score": 8,
+        "comment": "abundante y delicioso, la musica un poco fuerte "
+      }
+    ]
+  },
+  {
+    "itemId": 5,
+    "itemTags": [
+
+      "taco",
+      "carne",
+      "mexico",
+      "mexicana",
+      "mexicano",
+      "picante"
+    ],
+    "itemName": "Tacos de Carne Picante",
+    "itemUrlFoto": "https://drive.google.com/open?id=0B-Zi2GDk23_7bXZ2bXNtRFl1NXc",
+    "place": {
+      "placeId": 5,
+      "placeName": "ChiliTacos",
+      "placeIsDelivery": true,
+      "placeIsTakeAway": true
+    },
+    "itemReviews": [
+      {
+        "reviewId": 13,
+        "score": 5,
+        "comment": "Llego tarde y no picaba"
+      },
+      {
+        "reviewId": 14,
+        "score": 8,
+        "comment": "buena comida"
+      },
+      {
+        "reviewId": 15,
+        "score": 7,
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "itemId": 6,
+    "itemTags": [
+      "arabe",
+      "shawarma",
+      "cordero"
+    ],
+    "itemName": "Shawarma de Cordero",
+    "itemUrlFoto": "",
+    "place": {
+      "placeId": 16,
+      "placeName": "Safyta",
+      "placeIsDelivery": false,
+      "placeIsTakeAway": false
+    },
+    "itemReviews": [
+      {
+        "reviewId": 17,
+        "score": 8,
+        "comment": "Muy rico, aunque un poco caro"
+      },
+      {
+        "reviewId": 18,
+        "score": 5,
+        "comment": "poco sabor, caro y no muy abundante"
+      },
+      {
+        "reviewId": 19,
+        "score": 10,
+        "comment": "el mejor lugar de comida arabe de Rosario"
+      },
+      {
+        "reviewId": 20,
+        "score": 6,
+        "comment": "para picar zafa"
+      },
+      {
+        "reviewId": 28,
+        "score": 5,
+        "comment": ""
+      }
+
+    ]
+  },
+  {
+    "itemId": 7,
+    "itemTags": [
+
+      "ensalada",
+      "seitan",
+      "vegano",
+      "vegetariano"
+    ],
+    "itemName": "Ensalada Sattva",
+    "itemUrlFoto": "",
+    "place": {
+      "placeId": 7,
+      "placeName": "Sattva Comida Vegana/Vegetariana",
+      "placeIsDelivery": true,
+      "placeIsTakeAway": false
+    },
+    "itemReviews": [
+      {
+        "reviewId": 21,
+        "score": 8,
+        "comment": ""
+      },
+      {
+        "reviewId": 22,
+        "score": 9,
+        "comment": "muy abundante y fresco"
+      },
+      {
+        "reviewId": 23,
+        "score": 10,
+        "comment": "la mejor ensalada con el mejor seitan"
+      },
+      {
+        "reviewId": 29,
+        "score": 8,
+        "comment": "ipsum"
+      },
+      {
+        "reviewId": 29,
+        "score": 7,
+        "comment": "no vives de ensalada"
+      }
+    ]
+  },
+  {
+    "itemId": 8,
+    "itemName": "Boga Despinada",
+    "itemReviews": [
+      {
+        "reviewId": 24,
+        "score": 10,
+        "comment": "NO PODES VENIR A ROSARIO Y NO COMER BOGA DESPINADA"
+      },
+      {
+        "reviewId": 25,
+        "score": 9,
+        "comment": "DELICIOSO, HABIA OTRAS OPCIONES PARA LOS QUE NO COMEN PESCADO"
+      },
+      {
+        "reviewId": 26,
+        "score": 7,
+        "comment": "Tardo en Venir pero muy rico la verdad"
+      },
+      {
+        "reviewId": 30,
+        "score": 7,
+        "comment": "de los mejores platos de Rosario"
+      }
+    ],
+    "itemTags": [
+      "pescado",
+      "boga",
+      "rio",
+      "despinada",
+      "limon"
+    ],
+    "itemUrlFoto": "",
+    "place": {
+      "placeId": 8,
+      "placeName": "Comedor Bajada España",
+      "placeIsDelivery": false,
+      "placeIsTakeAway": true
+    }
+  },
+  {
+    "itemId": 9,
+    "itemName": "Sambayon Caruso",
+    "itemReviews": [
+      {
+        "reviewId": 31,
+        "score": 10,
+        "comment": "EL MEJOR SAN VAYON"
+      },
+      {
+        "reviewId": 32,
+        "score": 9,
+        "comment": "Sambayon Caruso ES LO MAS GRANDE DE ARGENTINA DESPUES DEL ASADO"
+      },
+      {
+        "reviewId": 33,
+        "score": 7,
+        "comment": "EL SAMBAYON CARUSO ME SALVO DE IRME A LA B EN MI MATRIMONIO"
+      },
+      {
+        "reviewId": 34,
+        "score": 7,
+        "comment": "EL MEJOR POSTRE LEJOS GANA POR AFANO"
+      }
+    ],
+    "itemTags": [
+      "helado",
+      "sambayon",
+      "crema",
+      "borracho",
+      "borracha"
+
+    ],
+    "itemUrlFoto": "",
+    "place": {
+      "placeId": 9,
+      "placeName": "Heladeria los 3 pelados",
+      "placeIsDelivery": true,
+      "placeIsTakeAway": true
+    }
+  },
+  {
+    "itemId": 10,
+    "itemName": "Torta Bomba Bombon",
+    "itemReviews": [
+      {
+        "reviewId": 35,
+        "score": 10,
+        "comment": "ESTA TORTA ES UNA COMBINACION DE AMOR Y CHOCOLATE"
+      },
+      {
+        "reviewId": 36,
+        "score": 9,
+        "comment": "excelente chicos, me dejo de cama"
+      },
+      {
+        "reviewId": 37,
+        "score": 8,
+        "comment": "la mejor torta del universo"
+      },
+      {
+        "reviewId": 38,
+        "score": 7,
+        "comment": "si vas a la heladeria y no la probas no tenes alma"
+      }
+    ],
+    "itemTags": [
+      "helado",
+      "copa",
+      "americana",
+      "chocolate",
+      "oblea",
+      "helada",
+      ""
+
+    ],
+    "itemUrlFoto": "",
+    "place": {
+      "placeId": 9,
+      "placeName": "Heladeria los 3 pelados",
+      "placeIsDelivery": true,
+      "placeIsTakeAway": true
+    }
+  },
+  {
+    "itemId": 11,
+    "itemName": "Copa 3 Pelados",
+    "itemReviews": [
+      {
+        "reviewId": 39,
+        "score": 10,
+        "comment": "Esta Copa esta tan buena como ganar el mundial",
+      },
+      {
+        "reviewId": 40,
+        "score": 10,
+        "comment": "Si hubiera probado esto cuando era niño hoy seria otra persona mas mejor"
+      },
+      {
+        "reviewId": 41,
+        "score": 9,
+        "comment": "los 3 pelados se fueron al carajo con esta copa"
+      },
+      {
+        "reviewId": 42,
+        "score": 10,
+        "comment": "me dijeron que era la mejor copa helada pero no lo crei hasta que la probe"
+      }
+    ],
+    "itemTags": [
+      "helado",
+      "sambayon",
+      "crema",
+      "borracho",
+      "borracha"
+
+    ],
+    "itemUrlFoto": "",
+    "place": {
+      "placeId": 9,
+      "placeName": "Heladeria los 3 pelados",
+      "placeIsDelivery": true,
+      "placeIsTakeAway": true
+    }
+  },
+  {
+    "itemId": 12,
+    "itemName": "Cerveza Cacacuca",
+    "itemReviews": [
+      {
+        "reviewId": 43,
+        "score": 7,
+        "comment": "muy rica cerveza, cara y fuerte"
+      },
+      {
+        "reviewId": 44,
+        "score": 10,
+        "comment": "Que buena negra!"
+      },
+      {
+        "reviewId": 45,
+        "score": 8,
+        "comment": "excelente aroma muy buen cuerpo"
+      },
+      {
+        "reviewId": 46,
+        "score": 9,
+        "comment": "esta cerveza es la reencarnacion de Peron en forma de Cerveza"
+      }
+    ],
+    "itemTags": [
+      "cerveza",
+      "negra",
+      "stout",
+      "cacacuca",
+      "Nitrogenada"
+
+    ],
+    "itemUrlFoto": "",
+    "place": {
+      "placeId": 9,
+      "placeName": "Cerveceria La Chola",
+      "placeIsDelivery": true,
+      "placeIsTakeAway": true
+    }
+  },
+  {
+    "itemId": 12,
+    "itemName": "Cerveza IPAnema",
+    "itemReviews": [
+      {
+        "reviewId": 47,
+        "score": 7,
+        "comment": "e una cervecinha para tomar con una minina"
+      },
+      {
+        "reviewId": 48,
+        "score": 10,
+        "comment": "Que buena rubia!"
+      },
+      {
+        "reviewId": 49,
+        "score": 8,
+        "comment": "excelente aroma muy citrica"
+      },
+      {
+        "reviewId": 46,
+        "score": 9,
+        "comment": "esta cerveza es la reencarnacion de Evita en forma de lupulo fermentado"
+      }
+    ],
+    "itemTags": [
+      "cerveza",
+      "negra",
+      "rubia",
+      "cacacuca",
+      "artesanal",
+      "ipa"
+
+    ],
+    "itemUrlFoto": "",
+    "place": {
+      "placeId": 9,
+      "placeName": "Cerveceria La Chola",
+      "placeIsDelivery": true,
+      "placeIsTakeAway": true
+    }
+  }
+]

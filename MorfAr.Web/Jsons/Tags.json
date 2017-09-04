@@ -1,0 +1,273 @@
+﻿[
+
+  {
+    "tagId": 1,
+    "tagName": "empanada",
+    "tagType": "food"
+  },
+  {
+    "tagId": 2,
+    "tagName": "verdeo",
+    "tagType": "food"
+  },
+  {
+    "tagId": 3,
+    "tagName": "pasta",
+    "tagType": "food"
+  },
+  {
+    "tagId": 4,
+    "tagName": "marisco",
+    "tagType": "food"
+  },
+  {
+    "tagId": 5,
+    "tagName": "camaron",
+    "tagType": "food"
+  },
+  {
+    "tagId": 6,
+    "tagName": "fideo",
+    "tagType": "food"
+  },
+  {
+    "tagId": 7,
+    "tagName": "mar",
+    "tagType": "food"
+  },
+  {
+    "tagId": 8,
+    "tagName": "salsa",
+    "tagType": "food"
+  },
+  {
+    "tagId": 9,
+    "tagName": "mixta",
+    "tagType": "food"
+  },
+  {
+    "tagId": 10,
+    "tagName": "pasta",
+    "tagType": "food"
+  },
+  {
+    "tagId": 11,
+    "tagName": "carbonara",
+    "tagType": "food"
+  },
+  {
+    "tagId": 12,
+    "tagName": "taco",
+    "tagType": "food"
+  },
+  {
+    "tagId": 13,
+    "tagName": "mexico",
+    "tagType": "food"
+  },
+  {
+    "tagId": 14,
+    "tagName": "mexicana",
+    "tagType": "food"
+  },
+  {
+    "tagId": 15,
+    "tagName": "carne",
+    "tagType": "food"
+  },
+  {
+    "tagId": 16,
+    "tagName": "vegetariano",
+    "tagType": "food"
+  },
+  {
+    "tagId": 17,
+    "tagName": "vegano",
+    "tagType": "food"
+  },
+  {
+    "tagId": 18,
+    "tagName": "picante",
+    "tagType": "food"
+  },
+  {
+    "tagId": 19,
+    "tagName": "arabe",
+    "tagType": "food"
+  },
+  {
+    "tagId": 20,
+    "tagName": "shawarma",
+    "tagType": "food"
+  },
+  {
+    "tagId": 21,
+    "tagName": "cordero",
+    "tagType": "food"
+  },
+  {
+    "tagId": 22,
+    "tagName": "seitan",
+    "tagType": "food"
+  },
+  {
+    "tagId": 23,
+    "tagName": "ensalada",
+    "tagType": "food"
+  },
+  {
+    "tagId": 24,
+    "tagName": "pescado",
+    "tagType": "food"
+  },
+  {
+    "tagId": 25,
+    "tagName": "boga",
+    "tagType": "food"
+  },
+  {
+    "tagId": 26,
+    "tagName": "rio",
+    "tagType": "food"
+  },
+  {
+    "tagId": 27,
+    "tagName": "despinada",
+    "tagType": "food"
+  },
+  {
+    "tagId": 28,
+    "tagName": "limon",
+    "tagType": "food"
+  },
+  {
+    "tagId": 29,
+    "tagName": "cerveza",
+    "tagType": "drink"
+  },
+  {
+    "tagId": 30,
+    "tagName": "trago",
+    "tagType": "drink"
+  },
+  {
+    "tagId": 31,
+    "tagName": "daikiri",
+    "tagType": "drink"
+  },
+  {
+    "tagId": 32,
+    "tagName": "cocktail",
+    "tagType": "drink"
+  },
+  {
+    "tagId": 33,
+    "tagName": "de autor",
+    "tagType": "drink"
+  },
+  {
+    "tagId": 34,
+    "tagName": "negroni",
+    "tagType": "drink"
+  },
+  {
+    "tagId": 35,
+    "tagName": "tirada",
+    "tagType": "drink"
+  },
+  {
+    "tagId": 36,
+    "tagName": "artesanal",
+    "tagType": "drink"
+  },
+  {
+    "tagId": 37,
+    "tagName": "sidra",
+    "tagType": "drink"
+  },
+  {
+    "tagId": 38,
+    "tagName": "after",
+    "tagType": "drink"
+  },
+  {
+    "tagId": 39,
+    "tagName": "aperitivo",
+    "tagType": "drink"
+  },
+  {
+    "tagId": 40,
+    "tagName": "torta",
+    "tagType": "dessert"
+  },
+  {
+    "tagId": 41,
+    "tagName": "helado",
+    "tagType": "dessert"
+  },
+  {
+    "tagId": 42,
+    "tagName": "frutilla",
+    "tagType": "dessert"
+  },
+  {
+    "tagId": 43,
+    "tagName": "macedonia",
+    "tagType": "dessert"
+  },
+  {
+    "tagId": 44,
+    "tagName": "chocolate",
+    "tagType": "dessert"
+  },
+  {
+    "tagId": 45,
+    "tagName": "flan",
+    "tagType": "dessert"
+  },
+  {
+    "tagId": 46,
+    "tagName": "budin de pan",
+    "tagType": "dessert"
+  },
+  {
+    "tagId": 47,
+    "tagName": "vigilante",
+    "tagType": "dessert"
+  },
+  {
+    "tagId": 48,
+    "tagName": "te",
+    "tagType": "dessert"
+  },
+  {
+    "tagId": 49,
+    "tagName": "café",
+    "tagType": "dessert"
+  },
+  {
+    "tagId": 50,
+    "tagName": "ensalada de fruta",
+    "tagType": "dessert"
+  },
+  {
+    "tagId": 51,
+    "tagName": "borracho",
+    "tagType": "dessert"
+  },
+  {
+    "tagId": 52,
+    "tagName": "borracha",
+    "tagType": "dessert"
+  },
+  {
+    "tagId": 53,
+    "tagName": "ipa",
+    "tagType": "drink"
+  },
+  {
+    "tagId": 54,
+    "tagName": "stout",
+    "tagType": "drink"
+  }
+]
