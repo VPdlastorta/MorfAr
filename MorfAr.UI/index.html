@@ -39,43 +39,33 @@
         <form action="#" role="form" data-base-url="#">
           <div class="radio">
             <label>
-              <input name="search[type]" type="radio" value="todos" checked="">
+              <input class="checkbox" name="search[type]" type="radio" value="all" checked="">
               <span><span>Todos</span></span></label>
             <label>
-              <input name="search[type]" type="radio" value="comidas">
+              <input class="checkbox" name="search[type]" type="radio" value="food">
               <span><span>Comidas</span></span></label>
             <label>
-              <input name="search[type]" type="radio" value="postres">
+              <input class="checkbox" name="search[type]" type="radio" value="dessert">
               <span><span>Postres</span></span></label>
             <label>
-              <input name="search[type]" type="radio" value="bebidas">
+              <input class="checkbox" name="search[type]" type="radio" value="drink">
               <span><span>Bebidas</span></span></label>
           </div>
           <div class="search-box-actions">
             <div class="row">
               <div class="col-xs-12 col-sm-8 col-md-7">
                 <label class="sr-only">Que estás buscando...</label>
-                <input autocomplete="on" type="search" class="form-control" id="foodAutoComplete" list="foodList" placeholder="Que querés comer o tomar?">
+                <input autocomplete="on" type="search" class="form-control" id="foodFilter" list="foodList" placeholder="Que querés comer o tomar?">
                 <datalist id="foodList">
-                <option value="Hamburguesa" />
-                <option value="Papa Fritas" />
-                <option value="Parrilla" />
-                <option value="Asado" />
                 </datalist>
               </div>
               <div class="col-xs-12 col-sm-4 col-md-3">
-                  <input autocomplete="on" type="search" class="form-control" id="foodAutoComplete" list="citiesList" placeholder="Donde querés buscarlo?">
-                  <datalist id="citiesList">
-                  <option value="Rosario" />
-                  <option value="Ciudad Autonoma de Buenos Aires" />
-                  </datalist>
-                <!-- <select class="form-control selectpicker selSearch" multiple="multiple" title="Ciudad" id="search_cities" data-size="5" data-live-search="true" data-live-search-placeholder="Ciudades">
-                  <option value="rosario">Rosario</option>
-                  <option value="ciudad-autonoma-de-buenos-aires">Ciudad Autónoma de Buenos Aires</option>
-                </select> -->
+                <input autocomplete="on" type="search" class="form-control" id="citiesFilter" list="citiesList" value="Rosario" placeholder="Ciudad">
+                <datalist id="citiesList">
+                </datalist>
               </div>
               <div class="col-xs-12 col-md-2">
-                <button type="submit" class="btn btn-block btn-primary">BUSCAR</button>
+                <button type="submit" class="btn btn-block btn-primary" onclick="doSearch()">BUSCAR</button>
               </div>
             </div>
           </div>
@@ -102,9 +92,9 @@
 </div>
 
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script> 
+<script type="text/javascript" src="js/main.js"></script> 
 <script type="text/javascript" src="js/bootstrap.min.js"></script> 
 <script type="text/javascript" src="js/bootstrap-select.es.min.js"></script> 
-<script type="text/javascript" src="js/main.js"></script> 
 
 </body>
 
