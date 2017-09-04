@@ -24,8 +24,10 @@
       "verdeo"
     ],
     "scoreAvg": 0,
-    "itemUrlPhoto": "https://drive.google.com/drive/u/1/folders/0B-Zi2GDk23_7N2ZnVlFsODhqbzg",
+    "itemUrlPhoto": "http://VPROS-DLASTORTA/MorfAr/Photos/0001.jpg",
     "place": {
+      "googleMapsUrl": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26786.040195189293!2d-60.6331418!3d-32.9442757!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8bb8638e2fc22a80!2sLa+Baska!5e0!3m2!1ses-419!2sar!4v1504547305133\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+      "locationId": 1,
       "placeId": 1,
       "placeIsDelivery": true,
       "placeIsTakeAway": true,
@@ -43,12 +45,14 @@
     ],
     "itemName": "Fideos con Mariscos",
     "scoreAvg": 0,
-    "itemUrlPhoto": "https://drive.google.com/open?id=0B-Zi2GDk23_7bnZvS210QmxjZVU",
+    "itemUrlPhoto": "http://VPROS-DLASTORTA/MorfAr/Photos/0002.jpg",
     "place": {
+      "locationId": 1,
       "placeId": 2,
-      "placeName": "La Marina Mercante",
+      "placeName": "La Marina",
       "placeIsDelivery": false,
-      "placeIsTakeAway": false
+      "placeIsTakeAway": false,
+      "googleMapsUrl": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.214746743208!2d-60.636895185041034!3d-32.945339279151625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab192f2d62ab%3A0xf419b8bfa485619!2sGIANNI+COCINO!5e0!3m2!1ses-419!2sar!4v1504547230700\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>" 
     },
     "itemReviews": [
       {
@@ -83,8 +87,10 @@
     ],
     "itemName": "Fideos con Mixta",
     "scoreAvg": 0,
-    "itemUrlPhoto": "https://drive.google.com/open?id=0B-Zi2GDk23_7TnFBTWFVZ3NnYVU",
+    "itemUrlPhoto": "http://VPROS-DLASTORTA/MorfAr/Photos/0003.jpg",
     "place": {
+      "googleMapsUrl": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26786.040195189293!2d-60.6331418!3d-32.9442757!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8bb8638e2fc22a80!2sLa+Baska!5e0!3m2!1ses-419!2sar!4v1504547305133\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+      "locationId": 1,
       "placeId": 3,
       "placeName": "Gianni Cocino",
       "placeIsDelivery": false,
@@ -118,8 +124,10 @@
     ],
     "itemName": "Fideos a la Carbonara",
     "scoreAvg": 0,
-    "itemUrlPhoto": "https://drive.google.com/open?id=0B-Zi2GDk23_7aFNXbmpYdUs5b0U",
+    "itemUrlPhoto": "http://VPROS-DLASTORTA/MorfAr/Photos/0004.jpg",
     "place": {
+      "googleMapsUrl": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.3253732656262!2d-60.63798968435294!3d-32.96881648034172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7abaeb85d64e7%3A0x8b0c33142a0dc62a!2sRestaurante+La+Piamontesa!5e0!3m2!1sen!2sar!4v1504547664168\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+      "locationId": 1,
       "placeId": 4,
       "placeName": "La Piamontesa",
       "placeIsDelivery": false,
@@ -156,12 +164,14 @@
     ],
     "itemName": "Tacos de Carne Picante",
     "scoreAvg": 0,
-    "itemUrlPhoto": "https://drive.google.com/open?id=0B-Zi2GDk23_7bXZ2bXNtRFl1NXc",
+    "itemUrlPhoto": "http://VPROS-DLASTORTA/MorfAr/Photos/0005.jpg",
     "place": {
+      "locationId": 1,
       "placeId": 5,
       "placeName": "ChiliTacos",
       "placeIsDelivery": true,
-      "placeIsTakeAway": true
+      "placeIsTakeAway": true,
+      "googleMapsUrl": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.040281849053!2d-60.65020898435337!3d-32.9499458793863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab146f963fd3%3A0xb10c87264c1b02fe!2sCHILI+TACOS!5e0!3m2!1sen!2sar!4v1504547701672\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
     },
     "itemReviews": [
       {
@@ -190,8 +200,10 @@
     ],
     "itemName": "Shawarma de Cordero",
     "scoreAvg": 0,
-    "itemUrlPhoto": "",
+    "itemUrlPhoto": "http://VPROS-DLASTORTA/MorfAr/Photos/0006.jpg",
     "place": {
+      "googleMapsUrl": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.081390947832!2d-60.65269168504099!3d-32.94886047932991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab15200b3105%3A0xbf493a6719ca26ff!2sSafyta+Panader%C3%ADa+And+Comida+%C3%81rabe!5e0!3m2!1ses-419!2sar!4v1504547586971\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+      "locationId": 1,
       "placeId": 16,
       "placeName": "Safyta",
       "placeIsDelivery": false,
@@ -237,8 +249,10 @@
     ],
     "itemName": "Ensalada Sattva",
     "scoreAvg": 0,
-    "itemUrlPhoto": "",
+    "itemUrlPhoto": "http://VPROS-DLASTORTA/MorfAr/Photos/0007.jpg",
     "place": {
+      "googleMapsUrl": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.366254513386!2d-60.6428006850413!3d-32.94133837894902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab3d293b7d21%3A0xdd1cbf46aa6716c0!2sCentro+Cultural+La+Toma!5e0!3m2!1ses-419!2sar!4v1504547636333\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+      "locationId": 1,
       "placeId": 7,
       "placeName": "Sattva Comida Vegana/Vegetariana",
       "placeIsDelivery": true,
@@ -305,8 +319,10 @@
       "limon"
     ],
     "scoreAvg": 0,
-    "itemUrlPhoto": "",
+    "itemUrlPhoto": "http://VPROS-DLASTORTA/MorfAr/Photos/0008.jpg",
     "place": {
+      "googleMapsUrl": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.6515714594334!2d-60.645622085041374!3d-32.933802778567774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab67790e1aa1%3A0xc8d19a2c51bb07a0!2sPe%C3%B1a+N%C3%A1utica+Bajada+Espa%C3%B1a+S.H.!5e0!3m2!1ses-419!2sar!4v1504547679889\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+      "locationId": 1,
       "placeId": 8,
       "placeName": "Comedor Bajada España",
       "placeIsDelivery": false,
@@ -347,8 +363,10 @@
 
     ],
     "scoreAvg": 0,
-    "itemUrlPhoto": "",
+    "itemUrlPhoto": "http://VPROS-DLASTORTA/MorfAr/Photos/0009.jpg",
     "place": {
+      "googleMapsUrl": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.164237041394!2d-60.6626326850402!3d-32.97306848055571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab9c5f89e503%3A0xc63a78c93901142e!2sSmart+Cremas+Heladas!5e0!3m2!1ses-419!2sar!4v1504547754299\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+      "locationId": 1,
       "placeId": 9,
       "placeName": "Heladeria los 3 pelados",
       "placeIsDelivery": true,
@@ -391,8 +409,10 @@
 
     ],
     "scoreAvg": 0,
-    "itemUrlPhoto": "",
+    "itemUrlPhoto": "http://VPROS-DLASTORTA/MorfAr/Photos/0010.jpg",
     "place": {
+      "googleMapsUrl": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.164237041394!2d-60.6626326850402!3d-32.97306848055571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab9c5f89e503%3A0xc63a78c93901142e!2sSmart+Cremas+Heladas!5e0!3m2!1ses-419!2sar!4v1504547754299\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+      "locationId": 1,
       "placeId": 9,
       "placeName": "Heladeria los 3 pelados",
       "placeIsDelivery": true,
@@ -433,8 +453,10 @@
 
     ],
     "scoreAvg": 0,
-    "itemUrlPhoto": "",
+    "itemUrlPhoto": "http://VPROS-DLASTORTA/MorfAr/Photos/0011.jpg",
     "place": {
+      "googleMapsUrl": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.164237041394!2d-60.6626326850402!3d-32.97306848055571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab9c5f89e503%3A0xc63a78c93901142e!2sSmart+Cremas+Heladas!5e0!3m2!1ses-419!2sar!4v1504547754299\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+      "locationId": 1,
       "placeId": 9,
       "placeName": "Heladeria los 3 pelados",
       "placeIsDelivery": true,
@@ -475,16 +497,19 @@
 
     ],
     "scoreAvg": 0,
-    "itemUrlPhoto": "",
+    "itemUrlPhoto": "http://VPROS-DLASTORTA/MorfAr/Photos/0012.jpg",
     "place": {
+      "googleMapsUrl": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.648406468942!2d-60.65444198504143!3d-32.93388637857186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab482ce48915%3A0xcfe4c2786b572f06!2sBirra!5e0!3m2!1ses-419!2sar!4v1504547803952\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+      "locationId": 1,
       "placeId": 9,
       "placeName": "Cerveceria La Chola",
+      "googleMapsUrl": "",
       "placeIsDelivery": true,
       "placeIsTakeAway": true
     }
   },
   {
-    "itemId": 12,
+    "itemId": 13,
     "itemName": "Cerveza IPAnema",
     "itemReviews": [
       {
@@ -519,7 +544,8 @@
     ],
     "scoreAvg": 0,
     "itemUrlPhoto": "",
-    "place": {
+    "place": {"googleMapsUrl": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.648406468942!2d-60.65444198504143!3d-32.93388637857186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab482ce48915%3A0xcfe4c2786b572f06!2sBirra!5e0!3m2!1ses-419!2sar!4v1504547803952\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+      "locationId": 1,
       "placeId": 9,
       "placeName": "Cerveceria La Chola",
       "placeIsDelivery": true,

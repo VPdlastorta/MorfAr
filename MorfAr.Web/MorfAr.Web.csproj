@@ -254,6 +254,14 @@
     <Content Include="Photos\0003-MostachiolesConMixta.jpeg" />
     <Content Include="Photos\0004-Carbonara.jpg" />
     <Content Include="Photos\0005-TacosCarne.jpg" />
+    <Content Include="Photos\0006.jpg" />
+    <Content Include="Photos\0007.jpg" />
+    <Content Include="Photos\0008.jpg" />
+    <Content Include="Photos\0009.jpg" />
+    <Content Include="Photos\0010.jpg" />
+    <Content Include="Photos\0011.jpg" />
+    <Content Include="Photos\0012.jpg" />
+    <Content Include="Photos\0013.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
