@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -46,21 +47,29 @@ namespace MorfAr.Web
             return result;
         }
 
-        public IList<ItemTag> GetItemsTag(string type)
+        public IList<ItemTag> GetItemsTag(string search, string type)
         {
-            var result = new List<ItemTag>();
+            if (search == null)
+            {
+                search = string.Empty;
+            }
+
+            IEnumerable<ItemTag> result = null;
+
+            result = tags.Where(f => f.tagName.IndexOf(search, StringComparison.OrdinalIgnoreCase) >= 0).ToList();
 
             if (type == "all")
             {
-                result = tags.ToList();
+                result = result.ToList();
             }
             else
             {
-                result = tags.Where(f => f.tagType == type).ToList();
+                result = result.Where(f => f.tagType == type).ToList();
             }
 
-            return result;
+            return result.ToList();
         }
 
     }
+
 }

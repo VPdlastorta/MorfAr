@@ -28,9 +28,9 @@ namespace MorfAr.Web.Controllers
 
         [HttpGet]
         [Route("api/ItemTag")]
-        public IList<ItemTag> GetItemTag(string type)
+        public IList<ItemTag> GetItemTag(string search, string type)
         {
-            return dataCtx.GetItemsTag(type);
+            return dataCtx.GetItemsTag(search, type);
         }
 
         [HttpGet]
