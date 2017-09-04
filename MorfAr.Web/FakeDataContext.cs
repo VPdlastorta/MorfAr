@@ -28,13 +28,14 @@ namespace MorfAr.Web
         {
             IEnumerable<Item> result = null;
 
+            var c = new OrdinalIgnoreCase();
             if (search == null)
             {
                 result = items.Where(f => f.place.locationId == locationId);
             }
             else
             {
-                result = items.Where(f => f.itemTags.Contains(search) && f.place.locationId == locationId);
+                result = items.Where(f => f.itemTags.Contains<string>(search, c) && f.place.locationId == locationId);
             }
 
             return result.OrderBy(f => f.scoreAvg).ToList();
@@ -64,7 +65,21 @@ namespace MorfAr.Web
 
             return result.ToList();
         }
+    }
 
+    public class OrdinalIgnoreCase : IEqualityComparer<string>
+    {
+        public bool Equals(string x, string y)
+        {
+            return string.Equals(x, y, StringComparison.OrdinalIgnoreCase);
+        }
+
+        public int GetHashCode(string obj)
+        {
+            int hash = 13;
+            hash = (hash * 7) + obj.GetHashCode();
+            return hash;
+        }
     }
 
 }
