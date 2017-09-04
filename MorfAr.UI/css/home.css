@@ -5,43 +5,6 @@
   margin-top: 0;
   height: 600px;
 }
-
-.header-banner {
-  background: #000;
-  color: #9c9c9c;
-  text-align: center;
-  font-size: 14px;
-  line-height: 58px;
-  height: 58px;
-  overflow: hidden;
-}
-
-header {
-  height: 70px;
-  padding: 18px;
-  background-color: #000;
-}
-
-.brand {
-  height: 54px !important;
-}
-
-.brand, .dropdown-brand {
-  z-index: 1;
-}
-
-.dropdown-brand {
-  position: absolute;
-  left: 90px;
-  line-height: 70px;
-  top: 0;
-  font-size: 35px;
-}
-
-.dropdown-brand a {
-  color: #FFF;
-}
-
 .dropdown-brand .dropdown-menu {
   padding: 0;
   margin: 0;
@@ -50,7 +13,6 @@ header {
   background-color: #353535;
   left: -70px;
 }
-
 .dropdown-brand .dropdown-menu a {
   color: #FFF;
   text-transform: uppercase;
@@ -62,7 +24,6 @@ header {
   position: relative;
   padding-left: 55px;
 }
-
 .dropdown-brand-bullet {
   position: absolute;
   background: no-repeat;
@@ -72,121 +33,23 @@ header {
   height: 100%;
   left: 15px;
 }
-
-a.dropdown-brand-link.guide .dropdown-brand-bullet {
-  background-image: url("../img/logo-oleo-guide.png");
-}
-
-a.dropdown-brand-link.delivery .dropdown-brand-bullet {
-  background-image: url("../img/logo-oleo-delivery.png");
-}
-
-a.dropdown-brand-link.gift .dropdown-brand-bullet {
-  background-image: url("../img/logo-oleo-gifts.png");
-}
-
-a.dropdown-brand-link.guide:hover .dropdown-brand-bullet, a.dropdown-brand-link.guide.active .dropdown-brand-bullet {
-  background-image: url("../img/logo-oleo-inverse.png") !important;
-}
-
-a.dropdown-brand-link.delivery:hover .dropdown-brand-bullet, a.dropdown-brand-link.delivery.active .dropdown-brand-bullet {
-  background-image: url("../img/logo-oleo-delivery-inverse.png") !important;
-}
-
-a.dropdown-brand-link.gift:hover .dropdown-brand-bullet, a.dropdown-brand-link.gift.active .dropdown-brand-bullet {
-  background-image: url("../img/logo-oleo-gifts-inverse.png") !important;
-}
-
-a.dropdown-brand-link:hover.guide, a.dropdown-brand-link.active.guide {
-  background-color: #95d273;
-}
-
 a.dropdown-brand-link:hover.delivery, a.dropdown-brand-link.active.delivery {
   background-color: #ffa700;
 }
-
 a.dropdown-brand-link:hover.gift, a.dropdown-brand-link.active.gift {
   background-color: #ddbf76;
 }
-
 a.dropdown-brand-link:hover, a.dropdown-brand-link.active {
   color: #FFF !important;
 }
-
 .header-user-icon img {
   width: 34px;
   height: 34px;
   border-radius: 50%;
 }
-
-.oleo-tabs {
-  line-height: 42px;
-  height: 46px;
-  background-color: #1e1e1e;
-  color: #505050;
-  text-align: center;
-}
-
-.oleo-tab-logo {
-  background-image: url("../img/logo-oleo-transparent.png");
-}
-
-.oleo-tab {
-  color: inherit;
-  text-decoration: none;
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 18px;
-  padding: 0 30px;
-  position: relative;
-  padding-left: 60px;
-  border-bottom: 2px solid transparent;
-  border-top: 2px solid transparent;
-}
-
-.oleo-tab.active, .oleo-tab:hover {
-  color: #FFF;
-}
-
-.oleo-tab.active.guide, .oleo-tab:hover.guide {
-  border-bottom-color: #95d273;
-}
-
-.oleo-tab.active.guide .oleo-tab-logo {
-  background-image: url("../img/logo-oleo-guide.png");
-}
-
-.oleo-tab:hover.delivery {
-  border-bottom-color: #ffa700;
-}
-
-.oleo-tab.active.delivery .oleo-tab-logo {
-  background-image: url("../img/logo-oleo-delivery.png");
-}
-
-.oleo-tab:hover.gift {
-  border-bottom-color: #ddbf76;
-}
-
-.oleo-tab.active.gift .oleo-tab-logo{
-  background-image: url("../img/logo-oleo-gifts.png");
-}
-
-.oleo-tab-logo {
-  width: 22px;
-  display: inline-block;
-  background-repeat: no-repeat;
-  position: absolute;
-  height: calc(100% - 3px);
-  background-position: center center;
-  left: 30px;
-  top: 0;
-}
-
 .radio input[type=radio] + span:after {
   content: none;
 }
-
 .radio input[type=radio] + span:before {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -201,24 +64,20 @@ a.dropdown-brand-link:hover, a.dropdown-brand-link.active {
   padding: 4px 0 0;
   font-size: 12px;
 }
-
 .radio input[type=radio]:checked + span {
-  color: #95d273;
+  color: #ff8800;
 }
-
 .radio input[type=radio]:checked + span:before {
-  background-color: #95d273;
+  background-color: #ff8800;
   color: #FFF;
   border: none;
 }
-
 .search-box {
   margin-top: -375px;
-  margin-bottom: 255px;
+  margin-bottom: 195px;
   text-align: center;
   position: relative;
 }
-
 .search-box .form-control {
   width: 100%;
   border: none;
@@ -226,7 +85,6 @@ a.dropdown-brand-link:hover, a.dropdown-brand-link.active {
   height: 40px;
   padding: 6px 8px;
 }
-
 .search-box button[type="submit"] {
   height: 40px;
   border-radius: 0;
@@ -236,17 +94,14 @@ a.dropdown-brand-link:hover, a.dropdown-brand-link.active {
   line-height: 40px;
   padding: 0;
 }
-
 .search-box-form {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #000;
   color: #FFF;
-  padding: 15px;
+  padding: 30px 15px;
 }
-
 .search-box-form .radio > label {
   margin: 0 10px;
 }
-
 .search-box-actions {
   margin: 20px 0;
 }
@@ -260,27 +115,6 @@ a.dropdown-brand-link:hover, a.dropdown-brand-link.active {
   padding-left: 5px;
   padding-right: 5px;
 }
-
-.search-box-actions .twitter-typeahead {
-  width: 100%;
-  margin: 0;
-  color: #555;
-  text-align: left;
-}
-
-.tt-menu {
-  border-radius: 0;
-  margin: 3px 0 0;
-  border: none;
-  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.175);
-}
-
-.tt-menu .tt-suggestion:not(:last-of-type) {
-  border-bottom: 1px dotted;
-  padding-bottom: 5px;
-}
-
 .rotate-tablet {
   text-align: center;
 }
@@ -310,45 +144,30 @@ a.dropdown-brand-link:hover, a.dropdown-brand-link.active {
     left: 0;
     height: calc(100% - 163px);
   }
-
-  
   .dropdown-brand {
     display: none;
   }
-
-  
   .main-container {
     top: 163px;
   }
-
-  
   .main-image {
     height: 500px;
-    
   }
-
-  
   .search-box {
     margin: 0;
     background-color: #1e1e1e;
   }
-
-  
   .search-box .container {
     padding: 0;
   }
-
-  
   .radio input[type=radio] + span {
     padding: 0;
     text-align: center;
     display: inline-block;
   }
-  
   .radio input[type=radio] + span:before {
     position: relative;
   }
-  
   .radio input[type=radio] + span > span {
     display: block;
     margin-top: 5px;
@@ -401,32 +220,10 @@ a.dropdown-brand-link:hover, a.dropdown-brand-link.active {
   
   .main-image {
     height: 240px;
-    /*background-size: cover;*/
   }
 
-  
-  .oleo-tabs {
-    line-height: 36px;
-    height: 40px;
-    white-space: nowrap;
-    overflow: hidden;
-  }
+ 
 
-  
-  .oleo-tab {
-    font-size: 12px;
-    padding: 0;
-    width: calc(33.33% - 2px);
-    margin: 0;
-    padding-left: 42px;
-    text-align: left;
-  }
-
-  
-  .oleo-tab-logo {
-    left: 10px;
-    background-size: 75%;
-  }
 }
 
 @media(min-width: 768px) and (max-width: 1031px) {
@@ -869,102 +666,7 @@ section.email-offers p {
     top: calc(50% - 18px);
   }
 
-  
-  .comment-box-user {
-    height: 90px;
-    padding-left: 90px;
-    font-size: 16px;
-  }
 
-  
-  .comment-box-avatar {
-    width: 70px;
-    height: 70px;
-    margin: 10px;
-  }
 
-  
-  .comment-box-badge {
-    width: 30px;
-    left: 58px;
-    top: 40px;
   }
-
-  
-  .comment-box-date {
-    font-size: 12px;
-  }
-
-  
-  .comment-box-text {
-    font-size: 12px;
-  }
-
-  
-  .comment-box-footer {
-    height: 40px;
-    line-height: 40px;
-    padding: 0 10px;
-    padding-left: 45px;
-    font-size: 12px;
-  }
-
-  
-  .comment-box-footer-image {
-    width: 25px;
-    left: 10px;
-    height: 25px;
-    top: calc(50% - 12.5px);
-  }
-
-  
-  .email-offers-title {
-    font-size: 13px;
-  }
-
-  
-  section.email-offers .form-control {
-    font-size: 12px;
-  }
-  
-  section.email-offers button[type="submit"] {
-    font-size: 12px;
-  }
-  
-  section.email-offers p {
-    font-size: 11px;
-  }
-}
-
-/* SLIDER ARROWS */
-.slider-arrows {
-  position: absolute;
-  top: calc(50% - 25px);
-  height: 0px;
-  line-height: 50px;
-  font-size: 50px;
-  width: calc(100% - 30px);
-  left: 15px;
-  color: #FFF;
-  padding: 0 10px;
-}
-.slider-arrows a {
-  color: inherit;
-}
-.slider-arrows a:hover {
-  color: #A3E186;
-}
-
-.banner-adhesion {
-    position:fixed;
-    bottom:0px;
-    z-index:200;
-}
-
-.banner-intersticial {
-    position:fixed;
-    top:0px;
-    width:100%;
-    height: 100%;
-    z-index:200;
 }

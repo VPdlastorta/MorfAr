@@ -4,9 +4,9 @@ body.disable-scroll { overflow: hidden; }
 	body.disable-scroll-xs { overflow: hidden; }
 }
 
-a { color: #A3E186; }
+a { color: #ff8800; }
 a:focus, a:active { outline: none; }
-a:focus, a:hover { text-decoration: none; color: #729E5E; }
+a:focus, a:hover { text-decoration: none; color: #FFD8AD; }
 
 .font-raleway { font-family: 'Raleway', sans-serif; }
 .font-sans { font-family: 'Open Sans', sans-serif; }
