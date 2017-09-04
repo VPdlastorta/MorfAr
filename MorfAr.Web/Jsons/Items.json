@@ -1,7 +1,7 @@
 ﻿[
   {
     "itemId": 1,
-    "itemName": "Empanada Verdeo",
+    "itemName": "Empanada de Verdeo",
     "itemReviews": [
       {
         "reviewId": 1,
@@ -20,8 +20,9 @@
       }
     ],
     "itemTags": [
-      "empanada",
-      "verdeo"
+      "Empanada",
+      "Verdeo",
+      "Empanada De Verdeo"
     ],
     "scoreAvg": 0,
     "itemUrlPhoto": "http://VPROS-DLASTORTA/MorfAr/Photos/0001.jpg",
@@ -37,13 +38,14 @@
   {
     "itemId": 2,
     "itemTags": [
-      "pasta",
-      "marisco",
-      "camaron",
-      "fideo",
-      "mar"
+      "Pasta",
+      "Marisco",
+      "Camaron",
+      "Fideo",
+      "Mar",
+      "Fideos con Camaron"
     ],
-    "itemName": "Fideos con Mariscos",
+    "itemName": "Fideos con Camaron",
     "scoreAvg": 0,
     "itemUrlPhoto": "http://VPROS-DLASTORTA/MorfAr/Photos/0002.jpg",
     "place": {
@@ -80,12 +82,13 @@
   {
     "itemId": 3,
     "itemTags": [
-      "fideo",
-      "mixta",
-      "salsa",
-      "pasta"
+      "Fideo",
+      "Mixta",
+      "Salsa",
+      "Pasta",
+      "Fideos con Salsa Mixta"
     ],
-    "itemName": "Fideos con Mixta",
+    "itemName": "Fideos Con Salsa Mixta",
     "scoreAvg": 0,
     "itemUrlPhoto": "http://VPROS-DLASTORTA/MorfAr/Photos/0003.jpg",
     "place": {
@@ -155,12 +158,13 @@
     "itemId": 5,
     "itemTags": [
 
-      "taco",
-      "carne",
-      "mexico",
-      "mexicana",
-      "mexicano",
-      "picante"
+      "Taco",
+      "Carne",
+      "Mexico",
+      "Comida Mexicana",
+      "Plato Mexicano",
+      "Picante",
+      "Taco con Carne Picante"
     ],
     "itemName": "Tacos de Carne Picante",
     "scoreAvg": 0,
@@ -194,9 +198,10 @@
   {
     "itemId": 6,
     "itemTags": [
-      "arabe",
-      "shawarma",
-      "cordero"
+      "Arabe",
+      "Shawarma",
+      "Cordero",
+      "Shawarma de Cordero"
     ],
     "itemName": "Shawarma de Cordero",
     "scoreAvg": 0,
@@ -242,10 +247,11 @@
     "itemId": 7,
     "itemTags": [
 
-      "ensalada",
-      "seitan",
-      "vegano",
-      "vegetariano"
+      "Ensalada",
+      "Seitan",
+      "Vegano",
+      "Vegetariano",
+      "Ensalada Sattva"
     ],
     "itemName": "Ensalada Sattva",
     "scoreAvg": 0,
@@ -312,11 +318,11 @@
       }
     ],
     "itemTags": [
-      "pescado",
-      "boga",
-      "rio",
-      "despinada",
-      "limon"
+      "Pescado",
+      "Boga",
+      "Rio",
+      "Despinada",
+      "Limon"
     ],
     "scoreAvg": 0,
     "itemUrlPhoto": "http://VPROS-DLASTORTA/MorfAr/Photos/0008.jpg",
@@ -355,11 +361,13 @@
       }
     ],
     "itemTags": [
-      "helado",
-      "sambayon",
-      "crema",
-      "borracho",
-      "borracha"
+      "Helado",
+      "Sambayon",
+      "Crema",
+      "Borracho",
+      "Borracha",
+      "Postre Borracho",
+      "Sambayon Caruso"
 
     ],
     "scoreAvg": 0,
@@ -368,7 +376,7 @@
       "googleMapsUrl": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.164237041394!2d-60.6626326850402!3d-32.97306848055571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab9c5f89e503%3A0xc63a78c93901142e!2sSmart+Cremas+Heladas!5e0!3m2!1ses-419!2sar!4v1504547754299\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
       "locationId": 1,
       "placeId": 9,
-      "placeName": "Heladeria los 3 pelados",
+      "placeName": "Heladeria Los 3 pelados",
       "placeIsDelivery": true,
       "placeIsTakeAway": true
     }
@@ -399,13 +407,13 @@
       }
     ],
     "itemTags": [
-      "helado",
-      "copa",
-      "americana",
-      "chocolate",
-      "oblea",
-      "helada",
-      ""
+      "Helado",
+      "Copa",
+      "Americana",
+      "Chocolate",
+      "Oblea",
+      "Helada",
+      "Copa 3 Pelados"
 
     ],
     "scoreAvg": 0,
@@ -489,11 +497,12 @@
       }
     ],
     "itemTags": [
-      "cerveza",
-      "negra",
-      "stout",
-      "cacacuca",
-      "Nitrogenada"
+      "Cerveza",
+      "Negra",
+      "Stout",
+      "Cacacuca",
+      "Nitrogenada",
+      "Cerveza Cacacuca"
 
     ],
     "scoreAvg": 0,
@@ -534,12 +543,13 @@
       }
     ],
     "itemTags": [
-      "cerveza",
-      "negra",
-      "rubia",
-      "cacacuca",
-      "artesanal",
-      "ipa"
+      "Cerveza",
+      "Negra",
+      "Rubia",
+      "Cacacuca",
+      "Artesanal",
+      "IPA",
+      "Cerveza IPAnema"
 
     ],
     "scoreAvg": 0,
