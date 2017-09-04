@@ -23,7 +23,8 @@
       "empanada",
       "verdeo"
     ],
-    "itemUrlFoto": "https://drive.google.com/drive/u/1/folders/0B-Zi2GDk23_7N2ZnVlFsODhqbzg",
+    "scoreAvg": 0,
+    "itemUrlPhoto": "https://drive.google.com/drive/u/1/folders/0B-Zi2GDk23_7N2ZnVlFsODhqbzg",
     "place": {
       "placeId": 1,
       "placeIsDelivery": true,
@@ -41,7 +42,8 @@
       "mar"
     ],
     "itemName": "Fideos con Mariscos",
-    "itemUrlFoto": "https://drive.google.com/open?id=0B-Zi2GDk23_7bnZvS210QmxjZVU",
+    "scoreAvg": 0,
+    "itemUrlPhoto": "https://drive.google.com/open?id=0B-Zi2GDk23_7bnZvS210QmxjZVU",
     "place": {
       "placeId": 2,
       "placeName": "La Marina Mercante",
@@ -80,7 +82,8 @@
       "pasta"
     ],
     "itemName": "Empanada Verdeo",
-    "itemUrlFoto": "https://drive.google.com/open?id=0B-Zi2GDk23_7TnFBTWFVZ3NnYVU",
+    "scoreAvg": 0,
+    "itemUrlPhoto": "https://drive.google.com/open?id=0B-Zi2GDk23_7TnFBTWFVZ3NnYVU",
     "place": {
       "placeId": 3,
       "placeName": "Gianni Cocino",
@@ -114,7 +117,8 @@
       "panceta"
     ],
     "itemName": "Empanada Verdeo",
-    "itemUrlFoto": "https://drive.google.com/open?id=0B-Zi2GDk23_7aFNXbmpYdUs5b0U",
+    "scoreAvg": 0,
+    "itemUrlPhoto": "https://drive.google.com/open?id=0B-Zi2GDk23_7aFNXbmpYdUs5b0U",
     "place": {
       "placeId": 4,
       "placeName": "La Piamontesa",
@@ -151,7 +155,8 @@
       "picante"
     ],
     "itemName": "Tacos de Carne Picante",
-    "itemUrlFoto": "https://drive.google.com/open?id=0B-Zi2GDk23_7bXZ2bXNtRFl1NXc",
+    "scoreAvg": 0,
+    "itemUrlPhoto": "https://drive.google.com/open?id=0B-Zi2GDk23_7bXZ2bXNtRFl1NXc",
     "place": {
       "placeId": 5,
       "placeName": "ChiliTacos",
@@ -184,7 +189,8 @@
       "cordero"
     ],
     "itemName": "Shawarma de Cordero",
-    "itemUrlFoto": "",
+    "scoreAvg": 0,
+    "itemUrlPhoto": "",
     "place": {
       "placeId": 16,
       "placeName": "Safyta",
@@ -230,7 +236,8 @@
       "vegetariano"
     ],
     "itemName": "Ensalada Sattva",
-    "itemUrlFoto": "",
+    "scoreAvg": 0,
+    "itemUrlPhoto": "",
     "place": {
       "placeId": 7,
       "placeName": "Sattva Comida Vegana/Vegetariana",
@@ -297,7 +304,8 @@
       "despinada",
       "limon"
     ],
-    "itemUrlFoto": "",
+    "scoreAvg": 0,
+    "itemUrlPhoto": "",
     "place": {
       "placeId": 8,
       "placeName": "Comedor Bajada España",
@@ -338,7 +346,8 @@
       "borracha"
 
     ],
-    "itemUrlFoto": "",
+    "scoreAvg": 0,
+    "itemUrlPhoto": "",
     "place": {
       "placeId": 9,
       "placeName": "Heladeria los 3 pelados",
@@ -381,7 +390,8 @@
       ""
 
     ],
-    "itemUrlFoto": "",
+    "scoreAvg": 0,
+    "itemUrlPhoto": "",
     "place": {
       "placeId": 9,
       "placeName": "Heladeria los 3 pelados",
@@ -422,7 +432,8 @@
       "borracha"
 
     ],
-    "itemUrlFoto": "",
+    "scoreAvg": 0,
+    "itemUrlPhoto": "",
     "place": {
       "placeId": 9,
       "placeName": "Heladeria los 3 pelados",
@@ -463,7 +474,8 @@
       "Nitrogenada"
 
     ],
-    "itemUrlFoto": "",
+    "scoreAvg": 0,
+    "itemUrlPhoto": "",
     "place": {
       "placeId": 9,
       "placeName": "Cerveceria La Chola",
@@ -505,7 +517,8 @@
       "ipa"
 
     ],
-    "itemUrlFoto": "",
+    "scoreAvg": 0,
+    "itemUrlPhoto": "",
     "place": {
       "placeId": 9,
       "placeName": "Cerveceria La Chola",
