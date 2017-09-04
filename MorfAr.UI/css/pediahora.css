@@ -1,0 +1,37 @@
+
+@media (max-width: 1024px) {
+    .pediYa {
+        bottom: 40px;
+        width: 40%;
+    }
+}
+
+@media (max-width: 767px) {
+    .pediYa {
+        bottom: 160px;
+        width: 100%;
+    }
+}
+
+.pediYa {
+    position: absolute;
+    top: 120px;
+    z-index: 1;
+    width: 98%;
+}
+.pediYa .pyButton {
+    width: 100px;
+    margin: 0 auto;
+    background-color: #ffa700;
+    border-radius: 5px;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.pediYa .pyButton a {
+    color:#ffffff;
+} 
+.pediYa .pyButton a:hover {
+    color:#efefef;
+}

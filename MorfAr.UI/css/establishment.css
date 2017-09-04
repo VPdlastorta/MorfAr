@@ -1,0 +1,315 @@
+.oleo-tabs {
+  line-height: 42px;
+  height: 46px;
+  background-color: #1e1e1e;
+  color: #505050;
+  text-align: center; }
+
+.oleo-tab-logo {
+  background-image: url("https://www.guiaoleo.com.ar/img/logo-oleo-transparent.png"); }
+
+.oleo-tab {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 0 30px;
+  position: relative;
+  padding-left: 60px;
+  border-bottom: 2px solid transparent;
+  border-top: 2px solid transparent; }
+  .oleo-tab.active, .oleo-tab:hover {
+    color: #FFF; }
+  .oleo-tab.active.guide, .oleo-tab:hover.guide {
+    border-bottom-color: #95d273; }
+  .oleo-tab.active.guide .oleo-tab-logo {
+    background-image: url("https://www.guiaoleo.com.ar/img/logo-oleo-guide.png"); }
+  .oleo-tab:hover.delivery {
+    border-bottom-color: #ffa700; }
+  .oleo-tab.active.delivery .oleo-tab-logo {
+    background-image: url("https://www.guiaoleo.com.ar/img/logo-oleo-delivery.png"); }
+  .oleo-tab:hover.gift {
+    border-bottom-color: #ddbf76; }
+  .oleo-tab.active.gift .oleo-tab-logo {
+    background-image: url("https://www.guiaoleo.com.ar/img/logo-oleo-gifts.png"); }
+
+.oleo-tab-logo {
+  width: 22px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: calc(100% - 3px);
+  background-position: center center;
+  left: 30px;
+  top: 0; }
+
+.header-banner {
+  background: #000;
+  color: #9c9c9c;
+  text-align: center;
+  font-size: 14px;
+  line-height: 58px;
+  height: 58px;
+  overflow: hidden; }
+
+.BlkDiscount {
+  display: inline-block;
+  overflow: hidden; }
+  .BlkDiscount strong {
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    margin: 0 0 0 5px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #FF3E84; }
+  .BlkDiscount span {
+    font-size: 50%;
+    font-weight: bold;
+    vertical-align: middle; }
+
+.GoDiscount {
+  background-image: url("https://www.guiaoleo.com.ar/img/icon_discount.png");
+  background-size: 100%;
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin: 0 0 0 10px; }
+
+.border-box {
+  border: none; }
+  .border-box i.glyphicon-comment {
+    width: 15px;
+    height: 15px; }
+  .border-box span {
+    margin: 0 5px;
+    font-size: 16px;
+    font-weight: 600; }
+
+.oleoDiscountCupon {
+  margin: 3px 0 6px 0;
+  width: 180px;
+  height: 60px;
+  background-color: #FF3E84;
+  border-left: 2px dashed #fff;
+  border-right: 2px dashed #fff;
+  text-align: center; }
+  .oleoDiscountCupon a {
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+    color: #FFF;
+    font-size: 90%;
+    font-weight: 600;
+    display: block; }
+    .oleoDiscountCupon a strong {
+      display: block;
+      color: #fff;
+      text-align: center; }
+
+.btn.btn-block.btn-primary {
+  margin: 0;
+  float: none;
+  display: block;
+  clear: both; }
+
+@media (max-width: 767px) {
+  .oleo-tabs {
+    line-height: 36px;
+    height: 40px;
+    white-space: nowrap;
+    overflow: hidden; }
+  .oleo-tab {
+    font-size: 12px;
+    padding: 0;
+    width: calc(33.33% - 2px);
+    margin: 0;
+    padding-left: 42px;
+    text-align: left; }
+  .oleo-tab-logo {
+    left: 10px;
+    background-size: 75%; }
+  .fixed-layout > .breadcrumb {
+    top: 40px !important; } }
+
+.xs {
+  display: block;
+  margin: 1% auto;
+  max-width: 280px;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid #ff4081;
+  background-color: #fff; }
+  .xs * {
+    font-family: "Rockwell Std",Rock; }
+  .xs .head-cupon {
+    overflow: hidden;
+    padding: 6% 2%;
+    border-bottom: 3px dashed #fff;
+    background-color: #ff4081; }
+    .xs .head-cupon .cupon-legend {
+      line-height: 40px;
+      font-weight: normal;
+      color: #fff; }
+  .xs h2 {
+    display: inline-block;
+    padding: 1% 0;
+    overflow: hidden;
+    line-height: 40px;
+    font-size: 50px;
+    color: #fff; }
+  .xs .net {
+    display: block;
+    overflow: hidden;
+    margin: 10px auto;
+    height: 40px; }
+    .xs .net .iconx {
+      display: inline-block;
+      margin: 0 6px;
+      overflow: hidden;
+      width: 40px;
+      height: 40px;
+      border-radius: 20px; }
+      .xs .net .iconx img {
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px; }
+      .xs .net .iconx span {
+        color: #ff4081;
+        background-color: #FFF;
+        border: none;
+        line-height: 40px;
+        font-size: 23px;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%; }
+  .xs .content-cupon {
+    padding: 4% 2% 2%; }
+    .xs .content-cupon h3 {
+      padding: 2% 0 0;
+      line-height: 26px;
+      font-size: 26px; }
+    .xs .content-cupon .cupon-dir {
+      line-height: 50px;
+      color: #ff4081; }
+    .xs .content-cupon .cupon-desc p {
+      margin: 0 2% 4%;
+      line-height: 20px;
+      font-size: 14px; }
+  .xs .cupon-stores {
+    display: block;
+    margin: 0 auto;
+    text-align: center; }
+    .xs .cupon-stores a {
+      display: inline-block;
+      overflow: hidden;
+      max-width: 42%;
+      border-radius: 4px; }
+      .xs .cupon-stores a img {
+        display: block;
+        width: 100%; }
+
+@media (min-width: 461px) and (max-width: 600px) {
+  .xs {
+    display: block;
+    margin: 1% auto 0;
+    overflow: hidden;
+    max-width: 96%;
+    font-size: 1em;
+    text-align: center;
+    border: 1px solid #ff4081;
+    border-radius: 3px;
+    background-color: #fff; }
+    .xs .head-cupon {
+      padding: 40px 2%;
+      margin-bottom: 0;
+      float: left;
+      max-width: 48%;
+      height: 300px;
+      border: 0;
+      border-right: 3px dashed #fff; }
+    .xs .cupon-legend {
+      margin: 10px auto 0; }
+    .xs .net {
+      display: block;
+      overflow: hidden;
+      margin: 20px auto 10px;
+      height: 40px; }
+      .xs .net .iconx {
+        display: inline-block;
+        margin: 0 6px;
+        overflow: hidden;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px; }
+        .xs .net .iconx img {
+          display: block;
+          width: 40px;
+          height: 40px;
+          border-radius: 20px; }
+      .xs .net .iconx span {
+        color: #ff4081;
+        background-color: #FFF;
+        border: none;
+        line-height: 40px;
+        font-size: 23px;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%; }
+    .xs .content-cupon {
+      float: left;
+      padding: 8px 2%;
+      margin-bottom: 0;
+      max-width: 52%; }
+      .xs .content-cupon h3 {
+        padding: 0 0;
+        line-height: 26px;
+        font-size: 26px; }
+      .xs .content-cupon .cupon-dir {
+        margin: 8px 0;
+        line-height: 20px;
+        color: #ff4081; }
+      .xs .content-cupon .cupon-desc p {
+        margin: 0 2% 8px;
+        line-height: 20px;
+        font-size: 14px; }
+    .xs .cupon-stores {
+      float: right;
+      margin: 0 auto;
+      width: 52%;
+      text-align: center; }
+      .xs .cupon-stores a {
+        display: inline-block;
+        overflow: hidden;
+        max-width: 46%;
+        border-radius: 4px; }
+        .xs .cupon-stores a img {
+          display: block;
+          width: 100%; } }
+
+@media (max-width: 360px) {
+  .BlkDiscount {
+    margin-top: 6px;
+    display: block; }
+    .BlkDiscount strong {
+      margin: 0 1% 0; }
+  .display-extended-reviews {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 0; }
+  .btn.btn-block.btn-primary {
+    display: inline-block;
+    float: none;
+    width: 100%;
+    margin: 6px auto; }
+  .oleoDiscountCupon {
+    display: inline-block;
+    float: none;
+    width: 80%;
+    margin: 6px auto; } }

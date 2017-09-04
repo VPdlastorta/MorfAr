@@ -1,0 +1,14 @@
+body { background-color: #2D2D2D; }
+body.navigator { overflow: hidden;}
+body.transition header .navigation-container {display: block;}
+body.navigator .main-container { right: 90%; }
+.main-container { position: absolute; width: 100%; top: 164px; right: 0; background-color: #FFF; z-index: 1; -webkit-transition: right 300ms ease-out; -moz-transition: right 300ms ease-out; -ms-transition: right 300ms ease-out; -o-transition: right 300ms ease-out; transition: right 300 ms ease-out; }
+.main-container .fixed-toggle { z-index: 100001; }
+
+@media(max-width: 1031px) {
+	.main-container {top: 88px;}
+}
+
+@media(max-width: 767px) {
+	.main-container {top: 81px;}
+}
