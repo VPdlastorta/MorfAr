@@ -109,33 +109,6 @@ img.cover-y {height: 100%; width: auto;}
 
 .v-align-middle { vertical-align: middle; }
 
-.stack-15>div:not([class^="clearfix"]) { margin-bottom: 15px; }
-.stack-20>div:not([class^="clearfix"]) { margin-bottom: 20px; }
-.stack-30>div:not([class^="clearfix"]) { margin-bottom: 30px; }
-.stack-60>div:not([class^="clearfix"]) { margin-bottom: 60px; }
-
-.stack-xs-15>div:not([class^="clearfix"]) { margin-bottom: 15px !important; }
-.stack-xs-20>div:not([class^="clearfix"]) { margin-bottom: 20px !important; }
-.stack-xs-30>div:not([class^="clearfix"]) { margin-bottom: 30px !important; }
-.stack-xs-60>div:not([class^="clearfix"]) { margin-bottom: 60px !important; }
-@media(min-width: 768px) {
-	.stack-sm-15>div:not([class^="clearfix"]) { margin-bottom: 15px !important; }
-	.stack-sm-20>div:not([class^="clearfix"]) { margin-bottom: 20px !important; }
-	.stack-sm-30>div:not([class^="clearfix"]) { margin-bottom: 30px !important; }
-	.stack-sm-60>div:not([class^="clearfix"]) { margin-bottom: 60px !important; }
-}
-@media(min-width: 1032px) {
-	.stack-md-15>div:not([class^="clearfix"]) { margin-bottom: 15px !important; }
-	.stack-md-20>div:not([class^="clearfix"]) { margin-bottom: 20px !important; }
-	.stack-md-30>div:not([class^="clearfix"]) { margin-bottom: 30px !important; }
-	.stack-md-60>div:not([class^="clearfix"]) { margin-bottom: 60px !important; }
-}
-@media(min-width: 1200px) {
-	.stack-lg-15>div:not([class^="clearfix"]) { margin-bottom: 15px !important; }
-	.stack-lg-20>div:not([class^="clearfix"]) { margin-bottom: 20px !important; }
-	.stack-lg-30>div:not([class^="clearfix"]) { margin-bottom: 30px !important; }
-	.stack-lg-60>div:not([class^="clearfix"]) { margin-bottom: 60px !important; }
-}
 
 .list-xs-2 { -moz-column-count: 2; -moz-column-gap: 10px; -webkit-column-count: 2; -webkit-column-gap: 10px; column-count: 2; column-gap: 10px; }
 .list-xs-3 { -moz-column-count: 3; -moz-column-gap: 10px; -webkit-column-count: 3; -webkit-column-gap: 10px; column-count: 3; column-gap: 10px; }
@@ -339,3 +312,124 @@ img.cover-y {height: 100%; width: auto;}
 .autoflow {
     overflow: auto;
 }
+
+
+#show-food {
+	display: none;
+}
+.show-food {
+	background-color: #C0D5EB;
+}
+.place {
+    border-bottom: 1px solid;
+    font-size: 26px;
+    padding-bottom: 10px;
+    padding-top: 7px;
+}
+.food {
+    font-size: 18px;
+}
+.adress,
+.delivery,
+.score {font-size: 14px;
+}
+.food-img {
+	border: solid 5px #3C454F;
+	}
+
+p.comments {
+  position: relative;
+  text-align: center;
+  color: #3C454F;
+  margin-top: 10px;
+	font-size: 16px;
+	line-height: 26px;
+	padding: 10px 20px;
+  background-color: #F2F2F2;
+  border: 1px solid #3C454F;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 4px #888;
+  -moz-box-shadow: 2px 2px 4px #888;
+  box-shadow: 2px 2px 4px #888;
+}
+
+
+
+/*------------------------------------*\
+-------- Page Styles: Accordion
+\*------------------------------------*/
+body {
+	position:relative;
+	z-index:0;
+}
+.main:before {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:-1;
+	content:'';
+	background:-webkit-radial-gradient(30%, rgba(255,255,255,0.15), rgba(0,0,0,0)), url('img/body-bg.png');
+	background:-moz-radial-gradient(30%, rgba(255,255,255,0.15), rgba(0,0,0,0)), url('img/body-bg.png');
+	background:-o-radial-gradient(30%, rgba(255,255,255,0.15), rgba(0,0,0,0)), url('img/body-bg.png');
+	background:radial-gradient(30%, rgba(255,255,255,0.15), rgba(0,0,0,0)), url('img/body-bg.png');
+}
+
+.site-header-wrap {
+	margin-bottom:60px;
+	border-bottom:1px solid #cd9ad6;
+}
+
+/*------------------------------------*\
+-------- DEMO Code: accordion
+\*------------------------------------*/
+/*----- Accordion -----*/
+.accordion, .accordion * {
+	-webkit-box-sizing:border-box; 
+	-moz-box-sizing:border-box; 
+	box-sizing:border-box;
+}
+
+.accordion {
+	overflow:hidden;
+	box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+	border-radius:3px;
+	background:#fff;
+	color: #3C454F;
+}
+
+/*----- Section Titles -----*/
+.accordion-section-title {
+	width:100%;
+	padding:15px;
+	display:inline-block;
+	border-bottom:1px solid #1a1a1a;
+	background:#333;
+	transition:all linear 0.15s;
+	/* Type */
+	font-size:1.200em;
+	text-shadow:0px 1px 0px #1a1a1a;
+	color:#fff;
+}
+
+.accordion-section-title.active, .accordion-section-title:hover {
+	background:#3C454F;
+	color:#FF8800;
+	text-decoration:none;
+}
+
+.accordion-section:last-child .accordion-section-title {
+	border-bottom:none;
+}
+
+/*----- Section Content -----*/
+.accordion-section-content {
+	padding:15px;
+	display:none;
+}
+
+
+

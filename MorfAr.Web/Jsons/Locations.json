@@ -1,0 +1,26 @@
+﻿[
+  {
+    "locationId": 1,
+    "locationName": "Rosario"
+  },
+  {
+    "locationId": 2,
+    "locationName": "Santa Fe"
+  },
+  {
+    "locationId": 3,
+    "locationName": "Buenos Aires"
+  },
+  {
+    "locationId": 4,
+    "locationName": "Cordoba"
+  },
+  {
+    "locationId": 5,
+    "locationName": "Usuhaia"
+  },
+  {
+    "locationId": 6,
+    "locationName": "Mendoza"
+  }
+]

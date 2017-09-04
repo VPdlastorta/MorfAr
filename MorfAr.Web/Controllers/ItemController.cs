@@ -11,27 +11,26 @@ namespace MorfAr.Web.Controllers
     public class ItemController : ApiController
     {
         private readonly FakeDataContext dataCtx = null;
-        private readonly FakeDataFromJson jsonCtx = null;
+        
 
         public ItemController()
         {
             dataCtx = new FakeDataContext();
-            jsonCtx = new FakeDataFromJson();
         }
         // GET: api/Item
         [HttpGet]
         [Route("api/Item")]
-        public IList<Item> GetItem(string search, string location)
+        public IList<Item> GetItem(string search, int locationId)
         {
-            return jsonCtx.GetItemsData();
-            //return dataCtx.GetItemsByFilter("", "");
+            return dataCtx.GetItemsByFilter(search, locationId);
+
         }
 
         [HttpGet]
         [Route("api/ItemTag")]
-        public IList<ItemTag> GetItemTag(string type)
+        public IList<ItemTag> GetItemTag(string type, string search = "")
         {
-            return dataCtx.GetItemsTag(type);
+            return dataCtx.GetItemsTag(search, type);
         }
 
         [HttpGet]

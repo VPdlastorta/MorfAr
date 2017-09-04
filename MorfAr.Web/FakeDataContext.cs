@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,71 +11,34 @@ namespace MorfAr.Web
     {
         public IList<Item> items { get; set; }
         public IList<ItemTag> tags { get; set; }
-
         public IList<Location> locations { get; set; }
 
+        private LoadDataFromJson jsonCtx = null;
 
         public FakeDataContext()
         {
-            BuildItems();
-            BuildTags();
-            BuildLocations();
-
+            jsonCtx = new LoadDataFromJson();
+            items = jsonCtx.GetItemsData();
+            tags = jsonCtx.GetTagsData();
+            locations = jsonCtx.GetLocations();
         }
 
-        private void BuildLocations()
+        
+        public IList<Item> GetItemsByFilter(string search, int locationId)
         {
-            locations = new List<Location>();
+            IEnumerable<Item> result = null;
 
-            locations.Add(new Location()
+            var c = new OrdinalIgnoreCase();
+            if (search == null)
             {
-                locationId = 1,
-                locationName = "Rosario, Sta Fe"
-            });
-            locations.Add(new Location()
+                result = items.Where(f => f.place.locationId == locationId);
+            }
+            else
             {
-                locationId = 2,
-                locationName = "CABA, Bs As"
-            });
+                result = items.Where(f => f.itemTags.Contains<string>(search, c) && f.place.locationId == locationId);
+            }
 
-        }
-
-        private void BuildTags()
-        {
-            tags = new List<ItemTag>();
-
-            tags.Add(new ItemTag()
-            {
-                tagId = 4,
-                tagName = "marisco",
-                tagType = "comidad"
-            });
-        }
-
-        private void BuildItems()
-        {
-            items = new List<Item>();
-
-            items.Add(new Item()
-            {
-                itemId = 1,
-                itemName = "Empanada Verdeo",
-            });
-
-            items.Add(new Item()
-            {
-                itemId = 2,
-                itemName = "Fideos con Mariscos"
-            });
-
-        }
-
-
-        public IList<Item> GetItemsByFilter(string search, string localtion)
-        {
-            var result = items;
-
-            return result;
+            return result.OrderBy(f => f.scoreAvg).ToList();
         }
 
         public IList<Location> GetLocation()
@@ -84,12 +48,38 @@ namespace MorfAr.Web
             return result;
         }
 
-        public IList<ItemTag> GetItemsTag(string type)
+        public IList<ItemTag> GetItemsTag(string search, string type)
         {
-            var result = tags;
+            IEnumerable<ItemTag> result = null;
 
-            return result;
+            result = tags.Where(f => f.tagName.IndexOf(search, StringComparison.OrdinalIgnoreCase) >= 0).ToList();
+
+            if (type == "all")
+            {
+                result = result.ToList();
+            }
+            else
+            {
+                result = result.Where(f => f.tagType == type).ToList();
+            }
+
+            return result.ToList();
+        }
+    }
+
+    public class OrdinalIgnoreCase : IEqualityComparer<string>
+    {
+        public bool Equals(string x, string y)
+        {
+            return string.Equals(x, y, StringComparison.OrdinalIgnoreCase);
         }
 
+        public int GetHashCode(string obj)
+        {
+            int hash = 13;
+            hash = (hash * 7) + obj.GetHashCode();
+            return hash;
+        }
     }
+
 }
