@@ -15,7 +15,6 @@
 <link href="css/forms.css" rel="stylesheet" type="text/css">
 <link href="css/buttons.css" rel="stylesheet" type="text/css">
 <link href="css/box.css" rel="stylesheet" type="text/css">
-<link href="css/card.css" rel="stylesheet" type="text/css">
 <link href="css/header.css" rel="stylesheet" type="text/css">
 <link href="css/footer.css" rel="stylesheet" type="text/css">
 <link href="css/search.css" rel="stylesheet" type="text/css">
@@ -23,6 +22,8 @@
 <link href="css/main.css" rel="stylesheet" type="text/css">
 <link href="css/custom.css" rel="stylesheet" type="text/css">
 <link href="css/home.css" rel="stylesheet" type="text/css">
+
+
 </head>
 <body>
 
@@ -33,39 +34,51 @@
 <div class="main-container" id="waypoint">
   <section class="main-image bg-discover">
   </section>
+  
   <section class="search-box">
     <div class="container">
       <div class="search-box-form">
         <form action="#" role="form" data-base-url="#">
           <div class="radio">
             <label>
-              <input class="checkbox" name="search[type]" type="radio" value="all" checked="">
+              <input name="search[type]" type="radio" value="todos" checked="">
               <span><span>Todos</span></span></label>
             <label>
-              <input class="checkbox" name="search[type]" type="radio" value="food">
+              <input name="search[type]" type="radio" value="comidas">
               <span><span>Comidas</span></span></label>
             <label>
-              <input class="checkbox" name="search[type]" type="radio" value="dessert">
+              <input name="search[type]" type="radio" value="postres">
               <span><span>Postres</span></span></label>
             <label>
-              <input class="checkbox" name="search[type]" type="radio" value="drink">
+              <input name="search[type]" type="radio" value="bebidas">
               <span><span>Bebidas</span></span></label>
           </div>
           <div class="search-box-actions">
             <div class="row">
               <div class="col-xs-12 col-sm-8 col-md-7">
                 <label class="sr-only">Que estás buscando...</label>
-                <input autocomplete="on" type="search" class="form-control" id="foodFilter" list="foodList" placeholder="Que querés comer o tomar?">
+                <input autocomplete="on" type="search" class="form-control" id="foodAutoComplete" list="foodList" placeholder="Que querés comer o tomar?">
                 <datalist id="foodList">
+                <option value="Hamburguesa" />
+                <option value="Papa Fritas" />
+                <option value="Parrilla" />
+                <option value="Asado" />
                 </datalist>
               </div>
               <div class="col-xs-12 col-sm-4 col-md-3">
-                <input autocomplete="on" type="search" class="form-control" id="citiesFilter" list="citiesList" value="Rosario" placeholder="Ciudad">
-                <datalist id="citiesList">
-                </datalist>
+                  <input autocomplete="on" type="search" class="form-control" id="foodAutoComplete" list="citiesList" placeholder="Donde querés buscarlo?">
+                  <datalist id="citiesList">
+                  <option value="Rosario" />
+                  <option value="Ciudad Autonoma de Buenos Aires" />
+                  </datalist>
+                <!-- <select class="form-control selectpicker selSearch" multiple="multiple" title="Ciudad" id="search_cities" data-size="5" data-live-search="true" data-live-search-placeholder="Ciudades">
+                  <option value="rosario">Rosario</option>
+                  <option value="ciudad-autonoma-de-buenos-aires">Ciudad Autónoma de Buenos Aires</option>
+                </select> -->
               </div>
               <div class="col-xs-12 col-md-2">
-                <button type="submit" class="btn btn-block btn-primary" onclick="doSearch()">BUSCAR</button>
+                <button type="submit" onclick="mySearch()" class="btn btn-block btn-primary">BUSCAR</button>
+
               </div>
             </div>
           </div>
@@ -73,6 +86,66 @@
       </div>
     </div>
   </section>
+
+<div id="results" style="display: none;">
+
+<div class="container accordion">
+      <div class="accordion-section">
+        <a class="accordion-section-title" href="#accordion-1">Empanada Verdeo</a>
+        <div id="accordion-1" class="accordion-section-content">
+        <div class="row">
+    <div class="col-md-6">    <p class="place">La vendetta</p>
+
+  <p class="adress">Pellegrini: 1234</p>
+  <p class="delivery">¿Tiene delivery?: Si</p>
+    <p class="delivery">¿Tiene para llevar?: Si</p>
+    <p class="score">8 puntos</p>
+  <img class="food-img" src="http://lorempixel.com/400/200/food/"></img>
+  
+  </div>
+  
+
+    <div class="col-md-6">
+    <p class="score">Comentarios</p>  
+     <p class="comments">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales mollis quam ac tincidunt. Vivamus tincidunt posuere tellus, sed laoreet orci auctor e"</p></div>
+</div>
+      
+
+        </div><!--end .accordion-section-content-->
+      </div><!--end .accordion-section-->
+
+      <div class="accordion-section">
+        <a class="accordion-section-title" href="#accordion-2">Empanada Verdeo</a>
+        <div id="accordion-2" class="accordion-section-content">
+         <p class="place">La casona de la Abuela</p>
+  <p class="adress">Pellegrini: 1234</p>
+  <p class="delivery">¿Tiene delivery?: Si</p>
+     <p class="delivery">¿Tiene para llevar?: Si</p>
+  <p class="score">8 puntos</p>
+  <img class="food-img" src="http://lorempixel.com/400/200/food/"></img>
+   <p class="comments">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales mollis quam ac tincidunt. Vivamus tincidunt posuere tellus, sed laoreet orci auctor e"</p>
+        </div><!--end .accordion-section-content-->
+      </div><!--end .accordion-section-->
+
+      <div class="accordion-section">
+        <a class="accordion-section-title" href="#accordion-3">Empanada Verdeo</a>
+        <div id="accordion-3" class="accordion-section-content">
+       <p class="place">El Vomito</p>
+  <p class="adress">Pellegrini: 1234</p>
+  <p class="delivery">¿Tiene delivery?: Si</p>
+     <p class="delivery">¿Tiene para llevar?: Si</p>
+  <p class="score">8 puntos</p>
+  <img class="food-img" src="http://lorempixel.com/400/200/food/"></img>
+   <p class="comments">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales mollis quam ac tincidunt. Vivamus tincidunt posuere tellus, sed laoreet orci auctor e"</p>
+        </div><!--end .accordion-section-content-->
+      </div><!--end .accordion-section-->
+    </div><!--end .accordion-->
+  
+</div>
+ 
+
+
+
 
   <footer>
       <div class="footer-actions">
@@ -92,9 +165,51 @@
 </div>
 
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script> 
-<script type="text/javascript" src="js/main.js"></script> 
 <script type="text/javascript" src="js/bootstrap.min.js"></script> 
 <script type="text/javascript" src="js/bootstrap-select.es.min.js"></script> 
+<script type="text/javascript" src="js/main.js"></script> 
+<script type="text/javascript" src="js/accordion.js"></script>
+
+
+
+<script>
+
+
+
+
+function mySearch() {
+    var x = document.getElementById('results');
+
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+function myFood() {
+    var x = document.getElementById('show-food');
+
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+
+
+
+
+</script>
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+  </script>
+
+
+
 
 </body>
 
