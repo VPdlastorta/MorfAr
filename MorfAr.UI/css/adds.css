@@ -1,0 +1,22 @@
+.add { overflow: hidden; width: 100%; }
+
+.adds-home-300x250 { padding: 0px; }
+.adds-home-300x250 .add:first-child { margin-bottom: 25px; }
+
+.add-home-728x90 { height: 90px; }
+.add-home-728x90 .add { height: 100%; }
+
+.add-home-300x250 .add img { width: auto; height: auto; }
+
+.add-search-728x90 img { max-width: 100%; height: auto; }
+
+.community-add-with-border { border: 1px solid #ccc; border-left: none;}
+
+@media(max-width: 400px){
+    .inline{display: block;}
+}
+
+@media(min-width: 630px){
+    .add-mobile-comunity-l{float:left;}
+    .add-mobile-comunity-r{float:right;}
+}

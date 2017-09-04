@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Morf.ar</title>
+
+<link href='https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise' rel='stylesheet' type='text/css'>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-select.min.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="css/icons.css" rel="stylesheet" type="text/css">
+<link href="css/forms.css" rel="stylesheet" type="text/css">
+<link href="css/buttons.css" rel="stylesheet" type="text/css">
+<link href="css/box.css" rel="stylesheet" type="text/css">
+<link href="css/card.css" rel="stylesheet" type="text/css">
+<link href="css/header.css" rel="stylesheet" type="text/css">
+<link href="css/footer.css" rel="stylesheet" type="text/css">
+<link href="css/search.css" rel="stylesheet" type="text/css">
+<link href="css/swipe-navigation.css" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/custom.css" rel="stylesheet" type="text/css">
+<link href="css/home.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<header class="">
+  <div class="brand"> <a href="index.html">
+    <h1><img alt="LOGO" src="img/logo.png"></h1>
+    </a> </div>
+  <div class="menu-trigger"> <a href="#" class="menu-button"> <span></span> <span></span> <span></span> </a> </div>
+  <div class="navigation-container">
+    <div class="navigation">
+      <nav id="navigation">
+        <ul class="list-inline">
+       
+          <li>
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownCity" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"> Buenos Aires <span class="caret"></span> </button>
+              <ul class="dropdown-menu dropdown-menu-right dropdown-link-menu autoflow" aria-labelledby="dropdownCity">
+                <li><a data-ga='["Home","Nav_Bar_Buttons","Rosario"]' href="#">Rosario</a></li>
+                <li><a data-ga='["Home","Nav_Bar_Buttons","Cordoba"]' href="#">Cordoba</a></li>
+                <li><a data-ga='["Home","Nav_Bar_Buttons","Mendoza"]' href="#">Mendoza</a></li>
+                <li><a data-ga='["Home","Nav_Bar_Buttons","Bariloche"]' href="#">Bariloche</a></li>
+                <li><a data-ga='["Home","Nav_Bar_Buttons","Salta"]' href="#">Salta</a></li>
+                <li><a data-ga='["Home","Nav_Bar_Buttons","Tucuman"]' href="#">Tucuman</a></li>
+                <li><a data-ga='["Home","Nav_Bar_Buttons","Iguazú"]' href="#">Iguazú</a></li>
+                <li><a data-ga='["Home","Nav_Bar_Buttons","Ushuaia"]' href="#">Ushuaia</a></li>
+                <li><a data-ga='["Home","Nav_Bar_Buttons","El Calafate"]' href="#">El Calafate</a></li>
+              </ul>
+            </div>
+          </li>
+ 
+
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+<div class="main-container" id="waypoint">
+
+  <section class="main-image bg-discover">
+ 
+  </section>
+  <section class="search-box">
+    <div class="container">
+      <div class="search-box-form">
+        <form data-ga='["Home","Search","#search_query"]' action="#" id="main-search-form" role="form" data-base-url="#">
+          <div class="radio">
+            <label>
+              <input name="search[type]" type="radio" value="todos" checked="">
+              <span><span>Todos</span></span></label>
+            <label>
+              <input name="search[type]" type="radio" value="restaurantes">
+              <span><span>Comidas</span></span></label>
+            <label>
+              <input name="search[type]" type="radio" value="bares">
+              <span><span>Postres</span></span></label>
+          </div>
+          <div class="search-box-actions" id="search_filters">
+            <div class="row">
+              <div class="col-xs-12 col-sm-3 col-md-4">
+                <label class="sr-only" for="search_query">Buscar por nombre…</label>
+                <input autocomplete="off" type="search" class="form-control" id="search_query" name="queryString" placeholder="Buscar por nombre...">
+              </div>
+              <div class="col-xs-6 col-sm-3 col-md-2">
+                <select data-mobile="false" class="form-control selectpicker selSearch" multiple="multiple" title="Zonas" id="search_zones" data-size="5" data-live-search="true" data-live-search-placeholder="Buscá por zonas">
+                  <option value="palermo">Palermo (1125)</option>
+                  <option value="mar-del-plata">Mar del Plata (465)</option>
+                  <option value="recoleta">Recoleta (429)</option>
+                  <option value="belgrano">Belgrano (323)</option>
+                  <option value="san-nicolas">San Nicolas (276)</option>
+                  <option value="la-plata">La Plata (242)</option>
+                  <option value="san-telmo">San Telmo (214)</option>
+                  <option value="caballito">Caballito (185)</option>
+                  <option value="montserrat">Montserrat (179)</option>
+                  <option value="almagro">Almagro (178)</option>
+                  <option value="balvanera">Balvanera (168)</option>
+                  <option value="san-isidro">San Isidro (153)</option>
+                  <option value="retiro">Retiro (138)</option>
+                  <option value="quilmes">Quilmes (118)</option>
+                  <option value="villa-crespo">Villa Crespo (112)</option>
+                  <option value="puerto-madero">Puerto Madero (112)</option>
+                  <option value="flores">Flores (100)</option>
+                  <option value="vicente-lopez">Vicente López (99)</option>
+                  <option value="tigre">Tigre (98)</option>
+                  <option value="villa-urquiza">Villa Urquiza (98)</option>
+                  <option value="pilar">Pilar (94)</option>
+                  <option value="lomas-de-zamora">Lomas de Zamora (93)</option>
+                  <option value="martinez">Martínez (76)</option>
+                  <option value="bahia-blanca">Bahía Blanca (76)</option>
+                  <option value="villa-devoto">Villa Devoto (75)</option>
+                  <option value="pinamar">Pinamar (75)</option>
+                  <option value="ramos-mejia">Ramos Mejía (74)</option>
+                  <option value="boedo">Boedo (68)</option>
+                  <option value="colegiales">Colegiales (65)</option>
+                  <option value="nunez">Núñez (64)</option>
+                  <option value="villa-gesell">Villa Gesell (54)</option>
+                  <option value="adrogue">Adrogué (44)</option>
+                  <option value="villa-del-parque">Villa del Parque (43)</option>
+                  <option value="boca">Boca (43)</option>
+                  <option value="lanus">Lanús (42)</option>
+                  <option value="avellaneda">Avellaneda (42)</option>
+                  <option value="chacarita">Chacarita (40)</option>
+                  <option value="las-canitas">Las Cañitas (39)</option>
+                  <option value="olivos">Olivos (38)</option>
+                  <option value="moron">Morón (35)</option>
+                  <option value="lujan">Luján (35)</option>
+                  <option value="san-miguel">San Miguel (35)</option>
+                  <option value="mar-de-las-pampas">Mar de las Pampas (33)</option>
+                  <option value="valeria-del-mar">Valeria del Mar (33)</option>
+                  <option value="ingeniero-maschwitz">Ingeniero Maschwitz (30)</option>
+                  <option value="san-fernando">San Fernando (29)</option>
+                  <option value="ciudad-autonoma-de-buenos-aires">Ciudad Autónoma de Buenos Aires (29)</option>
+                  <option value="barracas">Barracas (29)</option>
+                  <option value="carilo">Cariló (28)</option>
+                  <option value="san-isidro">San Isidro (28)</option>
+                  <option value="saavedra">Saavedra (28)</option>
+                  <option value="acassuso">Acassuso (26)</option>
+                  <option value="mataderos">Mataderos (26)</option>
+                  <option value="villa-ballester">Villa Ballester (26)</option>
+                  <option value="santa-teresita">Santa Teresita (26)</option>
+                  <option value="miramar">Miramar (25)</option>
+                  <option value="castelar">Castelar (24)</option>
+                  <option value="liniers">Liniers (24)</option>
+                  <option value="san-bernardo">San Bernardo (23)</option>
+                  <option value="san-clemente-del-tuyu">San Clemente del Tuyú (23)</option>
+                  <option value="palermo-soho">Palermo Soho (22)</option>
+                  <option value="san-justo">San Justo (22)</option>
+                  <option value="moreno">Moreno (21)</option>
+                  <option value="parque-chacabuco">Parque Chacabuco (21)</option>
+                  <option value="hurlingham">Hurlingham (19)</option>
+                  <option value="belen-de-escobar">Belén de Escobar (19)</option>
+                  <option value="costa-del-este">Costa del Este (19)</option>
+                  <option value="la-lucila">La Lucila (19)</option>
+                  <option value="ezeiza">Ezeiza (19)</option>
+                  <option value="campana">Campana (18)</option>
+                  <option value="san-martin">San Martín (18)</option>
+                  <option value="buenos-aires">Buenos Aires (18)</option>
+                  <option value="monte-grande">Monte Grande (18)</option>
+                  <option value="necochea">Necochea (17)</option>
+                  <option value="muniz">Muñiz (17)</option>
+                  <option value="congreso">Congreso (17)</option>
+                  <option value="carlos-keen">Carlos Keen (16)</option>
+                  <option value="villa-luro">Villa Luro (16)</option>
+                  <option value="nordelta">Nordelta (15)</option>
+                  <option value="san-antonio-de-areco">San Antonio de Areco (15)</option>
+                  <option value="parque-patricios">Parque Patricios (15)</option>
+                  <option value="don-torcuato">Don Torcuato (14)</option>
+                  <option value="barrio-norte">Barrio Norte (14)</option>
+                  <option value="bella-vista">Bella vista (14)</option>
+                  <option value="baradero">Baradero (13)</option>
+                  <option value="las-toninas">Las Toninas (12)</option>
+                  <option value="canuelas">Cañuelas (12)</option>
+                  <option value="bernal">Bernal (12)</option>
+                  <option value="villa-ortuzar">Villa Ortúzar (12)</option>
+                  <option value="paternal">Paternal (12)</option>
+                  <option value="constitucion">Constitución (12)</option>
+                  <option value="ciudad-jardin-lomas-de-palomar">Ciudad Jardin Lomas de Palomar (12)</option>
+                  <option value="haedo">Haedo (11)</option>
+                  <option value="los-cardales">Los Cardales (11)</option>
+                  <option value="lucila-del-mar">Lucila del Mar (11)</option>
+                  <option value="general-pacheco">General Pacheco (11)</option>
+                  <option value="del-viso">Del Viso (11)</option>
+                  <option value="balneario-mar-azul">Balneario Mar Azul (11)</option>
+                  <option value="zarate">Zárate (11)</option>
+                  <option value="coghlan">Coghlan (11)</option>
+                  <option value="tomas-jofre">Tomás Jofré (11)</option>
+                  <option value="berazategui">Berazategui (10)</option>
+                  <option value="santa-clara-del-mar">Santa Clara del Mar (10)</option>
+                  <option value="capilla-del-senor">Capilla del Señor (9)</option>
+                  <option value="banfield">Banfield (9)</option>
+                  <option value="san-cristobal">San Cristóbal (9)</option>
+                  <option value="almirante-brown">Almirante Brown (9)</option>
+                  <option value="parque-avellaneda">Parque Avellaneda (9)</option>
+                  <option value="mar-de-ajo">Mar de Ajó (8)</option>
+                  <option value="san-andres-de-giles">San Andrés de Giles (8)</option>
+                  <option value="monte-castro">Monte Castro (8)</option>
+                  <option value="floresta">Floresta (8)</option>
+                  <option value="palermo-hollywood">Palermo Hollywood (8)</option>
+                  <option value="versalles">Versalles (8)</option>
+                  <option value="ciudadela">Ciudadela (7)</option>
+                  <option value="costa-azul">Costa Azul (7)</option>
+                  <option value="beccar">Beccar (7)</option>
+                  <option value="tortuguitas">Tortuguitas (7)</option>
+                  <option value="parque-leloir">Parque Leloir (7)</option>
+                  <option value="parque-camet">Parque Camet (6)</option>
+                  <option value="ostende">Ostende (6)</option>
+                  <option value="city-bell">City Bell (6)</option>
+                  <option value="villa-lugano">Villa Lugano (6)</option>
+                  <option value="agronomia">Agronomía (6)</option>
+                  <option value="mar-del-tuyu">Mar del Tuyú (5)</option>
+                  <option value="balneario-claromeco">Balneario Claromecó (5)</option>
+                  <option value="munro">Munro (5)</option>
+                  <option value="boulogne">Boulogne (5)</option>
+                  <option value="marcos-paz">Marcos Paz (5)</option>
+                  <option value="esteban-echeverria">Esteban Echeverría (5)</option>
+                  <option value="chivilcoy">Chivilcoy (5)</option>
+                  <option value="villa-pueyrredon">Villa Pueyrredón (5)</option>
+                  <option value="nueva-pompeya">Nueva Pompeya (5)</option>
+                  <option value="temperley">Temperley (5)</option>
+                  <option value="jose-c-paz">Jose C. Paz (5)</option>
+                  <option value="navarro">Navarro (4)</option>
+                  <option value="merlo">Merlo (4)</option>
+                  <option value="velez-sarsfield">Vélez Sarsfield (4)</option>
+                  <option value="costanera">Costanera (4)</option>
+                  <option value="villa-bosch">Villa Bosch (4)</option>
+                  <option value="open-door">Open Door (3)</option>
+                  <option value="luis-guillon">Luis Guillón (3)</option>
+                  <option value="empalme-san-vicente">Empalme San Vicente (3)</option>
+                  <option value="benavidez">Benavídez (3)</option>
+                  <option value="abasto">Abasto (3)</option>
+                  <option value="villa-lynch">Villa Lynch (3)</option>
+                  <option value="villa-adelina">Villa Adelina (3)</option>
+                  <option value="ituzaingo">Ituzaingó (3)</option>
+                  <option value="villa-general-mitre">Villa General Mitre (3)</option>
+                  <option value="udaondo">Udaondo (3)</option>
+                  <option value="los-polvorines">Los Polvorines (2)</option>
+                  <option value="longchamps">Longchamps (2)</option>
+                  <option value="lomas-del-mirador">Lomas del Mirador (2)</option>
+                  <option value="guillermo-e-hudson">Guillermo E. Hudson (2)</option>
+                  <option value="garin">Garín (2)</option>
+                  <option value="ciudad-general-belgrano">Ciudad General Belgrano (2)</option>
+                  <option value="canning">Canning (2)</option>
+                  <option value="burzaco">Burzaco (2)</option>
+                  <option value="azcuenaga">Azcuénaga (2)</option>
+                  <option value="guernica">Guernica (2)</option>
+                  <option value="florida-oeste">Florida Oeste (2)</option>
+                  <option value="brandsen">Brandsen (2)</option>
+                  <option value="pergamino">Pergamino (2)</option>
+                  <option value="villa-santa-rita">Villa Santa Rita (2)</option>
+                  <option value="villa-luzuriaga">Villa Luzuriaga (2)</option>
+                  <option value="santos-lugares">Santos Lugares (2)</option>
+                  <option value="rafael-calzada">Rafael Calzada (2)</option>
+                  <option value="exaltacion-de-la-cruz">Exaltación de la Cruz (2)</option>
+                </select>
+              </div>
+              <div class="col-xs-6 col-sm-3 col-md-2">
+                <select data-mobile="false" class="form-control selectpicker selSearch" multiple="multiple" title="Tipos de cocina" id="search_type" data-size="5" data-live-search="true" data-live-search-placeholder="Buscá por tipo">
+                  <option value="variada">Variada (1347)</option>
+                  <option value="parrilla">Parrilla (1095)</option>
+                  <option value="portena">Porteña (1060)</option>
+                  <option value="pizza">Pizza (1050)</option>
+                  <option value="casera">Casera (695)</option>
+                  <option value="de-autor">De Autor (655)</option>
+                  <option value="internacional">Internacional (588)</option>
+                  <option value="italiana">Italiana (403)</option>
+                  <option value="japonesa-sushi">Japonesa Sushi (303)</option>
+                  <option value="pescados-y-mariscos">Pescados Y Mariscos (269)</option>
+                  <option value="mediterranea">Mediterránea (269)</option>
+                  <option value="deli">Deli (253)</option>
+                  <option value="autoctona">Autóctona (209)</option>
+                  <option value="norteamericana">Norteamericana (183)</option>
+                  <option value="espanola">Española (162)</option>
+                  <option value="natural">Natural (153)</option>
+                  <option value="peruana">Peruana (111)</option>
+                  <option value="francesa">Francesa (99)</option>
+                  <option value="mexicana">Mexicana (93)</option>
+                  <option value="china">China (78)</option>
+                  <option value="vegetariana">Vegetariana (66)</option>
+                  <option value="arabe">Arabe (48)</option>
+                  <option value="latinoamericana">Latinoamericana (44)</option>
+                  <option value="sudeste-asiatico">Sudeste Asiático (43)</option>
+                  <option value="alemana">Alemana (39)</option>
+                  <option value="irlandesa">Irlandesa (21)</option>
+                  <option value="armenia">Armenia (20)</option>
+                  <option value="india">India (17)</option>
+                  <option value="vegetariana">Vegetariana (17)</option>
+                  <option value="coreana">Coreana (15)</option>
+                  <option value="vasca">Vasca (14)</option>
+                  <option value="judia">Judía (12)</option>
+                  <option value="cubana">Cubana (11)</option>
+                  <option value="uruguaya">Uruguaya (11)</option>
+                  <option value="venezolana">Venezolana (9)</option>
+                  <option value="colombiana">Colombiana (9)</option>
+                  <option value="brasilera">Brasilera (6)</option>
+                  <option value="griega">Griega (5)</option>
+                  <option value="natural">Natural (5)</option>
+                  <option value="inglesa">Inglesa (4)</option>
+                  <option value="argentina">Argentina (4)</option>
+                  <option value="hungara">Húngara (3)</option>
+                  <option value="macrobiotica">Macrobiótica (3)</option>
+                  <option value="nordica">Nórdica (3)</option>
+                  <option value="tex-mex">Tex-Mex (2)</option>
+                  <option value="portuguesa">Portuguesa (2)</option>
+                </select>
+              </div>
+              <div class="col-xs-12 col-sm-3 col-md-2">
+                <select data-mobile="false" class="form-control selectpicker" multiple="multiple" title="Descuentos" id="search_discount" data-size="5" data-live-search="true" data-live-search-placeholder="Descuentos">
+                  <option value="20">20% (18)</option>
+                  <option value="30">30% (6)</option>
+                  <option value="25">25% (5)</option>
+                  <option value="40">40% (3)</option>
+                </select>
+              </div>
+              <div class="col-xs-12 col-md-2">
+                <button type="submit" class="btn btn-block btn-primary">BUSCAR</button>
+              </div>
+            </div>
+          </div>
+          <a href="busqueda/avanzada.html">Búsqueda avanzada</a>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-actions">
+      <div class="container">
+        <h6>La mejor guía de comidas de la Argentina</h6>
+   
+        <div style="width: auto;text-align: center;margin-left: 100px;"> <a target="_blank" href="#" class="icon social facebook"></a> <a target="_blank" href="#" class="icon social twitter"></a> <a target="_blank" href="#" class="icon social instagram"></a>
+     
+        </div>
+      </div>
+    </div>
+    <div class="footer-legend">
+      <div class="container"> <small>Copyright &copy; 2017 Velocity Partners</small> </div>
+    </div>
+  </footer>
+</div>
+
+
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="js/js.cookie.js"></script> 
+<script type="text/javascript" src="js/bootstrap-select.es.min.js"></script> 
+<script type="text/javascript" src="js/utils.js"></script> 
+
+</body>
+
+</html>

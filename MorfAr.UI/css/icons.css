@@ -1,0 +1,48 @@
+.icon { display: inline-block; vertical-align: middle; }
+.icon.social {height: 34px;width: 34px;border-radius: 17px;border: 2px solid; color: #FFF;display: inline-block; font: normal normal normal 14px/1 FontAwesome;font-size: 17px; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;text-align: center;line-height: 32px;}
+.icon.social.black { color: #898989; }
+.icon.social.marker:before { content: "\f041"; }
+.icon.social.facebook:before { content: "\f09a"; }
+.icon.social.twitter:before { content: "\f099"; }
+.icon.social.instagram:before { content: "\f16d"; }
+.icon.social.whatsapp:before { content: "\f232"; font-size: 18px; }
+.icon.social.heart:before { content: "\f004"; }
+.icon.social.heart-active:before { content: "\f004"; }
+.icon.social.heart-active { color: #cf9186; }
+.icon.social.marker:hover, .icon.social.marker:focus { color: #ff4081 !important; }
+.icon.social.facebook:hover, .icon.social.facebook:focus { color: #425F9C !important; }
+.icon.social.twitter:hover, .icon.social.twitter:focus { color: #55acee !important; }
+.icon.social.whatsapp:hover, .icon.social.whatsapp:focus { color: #7BBF6A !important; }
+.icon.social.instagram:hover, .icon.social.instagram:focus { color: #D2886B !important; }
+.icon.social.heart:hover, .icon.social.heart:focus { color: #BCA4B8 !important; }
+
+
+.oleoDeliveryCompletions {
+  width: 41px;
+  height: 41px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  background-image: url("../../statics.guiaoleo.com.ar/home/website/Logo/OD%20Vertical.png");
+}
+
+
+@media(min-width: 768px) {
+	.icon.social.marker:before { font-size: 18px; }
+}
+
+.icon.award {  background-size: auto 100%; height: 2.5em; width: 2.5em; margin-top: 0px !important;}
+
+.icon.cutlery { background: url('../img/icon-cutlery.png') no-repeat; background-size: auto 100%; height: 1em; width: 1em; vertical-align: -1px; }
+.icon.heart:not(.social) { background: url('../img/icon-heart.png') no-repeat; background-size: auto 100%; width: 26px; height: 22px; }
+.icon.pencil.link-circle { background-image: url('../img/icon-pencil.png'); background-repeat: no-repeat;background-position: center;background-size: 60%;}
+
+@media (max-width: 767px) {
+	.icon.award { height: 4.5em; width: 4.5em;}
+}
