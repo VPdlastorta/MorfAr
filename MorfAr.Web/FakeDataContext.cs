@@ -10,9 +10,7 @@ namespace MorfAr.Web
     {
         public IList<Item> items { get; set; }
         public IList<ItemTag> tags { get; set; }
-
         public IList<Location> locations { get; set; }
-
 
         public FakeDataContext()
         {
@@ -47,7 +45,14 @@ namespace MorfAr.Web
             {
                 tagId = 4,
                 tagName = "marisco",
-                tagType = "comidad"
+                tagType = "comida"
+            });
+
+            tags.Add(new ItemTag()
+            {
+                tagId = 1,
+                tagName = "cerveza ip",
+                tagType = "beverage"
             });
         }
 
@@ -59,22 +64,50 @@ namespace MorfAr.Web
             {
                 itemId = 1,
                 itemName = "Empanada Verdeo",
+                itemTags = new List<string>()
+                {
+                    "empanada",
+                    "casera"
+                },
+                place = new Place()
+                {
+                    locationId = 1
+                }
             });
+
 
             items.Add(new Item()
             {
-                itemId = 2,
-                itemName = "Fideos con Mariscos"
+                itemId = 1,
+                itemName = "Fideos con Mariscos",
+                itemTags = new List<string>()
+                {
+                    "pasta",
+                    "casera"
+                },
+                place = new Place()
+                {
+                    locationId = 1
+                }
             });
 
         }
 
 
-        public IList<Item> GetItemsByFilter(string search, string localtion)
+        public IList<Item> GetItemsByFilter(string search, int locationId)
         {
-            var result = items;
+            IEnumerable<Item> result = null;
 
-            return result;
+            if (search == "")
+            {
+                result = items.Where(f => f.place.locationId == locationId);
+            }
+            else
+            {
+                result = items.Where(f => f.itemTags.Contains(search) && f.place.locationId == locationId);
+            }
+
+            return result.OrderBy(f => f.scoreAvg).ToList();
         }
 
         public IList<Location> GetLocation()
@@ -86,7 +119,16 @@ namespace MorfAr.Web
 
         public IList<ItemTag> GetItemsTag(string type)
         {
-            var result = tags;
+            var result = new List<ItemTag>();
+
+            if (type == "all")
+            {
+                result = tags.ToList();
+            }
+            else
+            {
+                result = tags.Where(f => f.tagType == type).ToList();
+            }
 
             return result;
         }

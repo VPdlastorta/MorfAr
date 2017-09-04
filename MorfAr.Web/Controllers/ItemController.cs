@@ -21,10 +21,10 @@ namespace MorfAr.Web.Controllers
         // GET: api/Item
         [HttpGet]
         [Route("api/Item")]
-        public IList<Item> GetItem(string search, string location)
+        public IList<Item> GetItem(string search, int locationId)
         {
-            return jsonCtx.GetItemsData();
-            //return dataCtx.GetItemsByFilter("", "");
+            return dataCtx.GetItemsByFilter(search, locationId);
+
         }
 
         [HttpGet]
