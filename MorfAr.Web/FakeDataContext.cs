@@ -12,8 +12,11 @@ namespace MorfAr.Web
         public IList<ItemTag> tags { get; set; }
         public IList<Location> locations { get; set; }
 
+        private FakeDataFromJson jsonCtx = null;
+
         public FakeDataContext()
         {
+            jsonCtx = new FakeDataFromJson();
             BuildItems();
             BuildTags();
             BuildLocations();
@@ -58,39 +61,8 @@ namespace MorfAr.Web
 
         private void BuildItems()
         {
-            items = new List<Item>();
-
-            items.Add(new Item()
-            {
-                itemId = 1,
-                itemName = "Empanada Verdeo",
-                itemTags = new List<string>()
-                {
-                    "empanada",
-                    "casera"
-                },
-                place = new Place()
-                {
-                    locationId = 1
-                }
-            });
-
-
-            items.Add(new Item()
-            {
-                itemId = 1,
-                itemName = "Fideos con Mariscos",
-                itemTags = new List<string>()
-                {
-                    "pasta",
-                    "casera"
-                },
-                place = new Place()
-                {
-                    locationId = 1
-                }
-            });
-
+            items = jsonCtx.GetItemsData();
+            tags = jsonCtx.GetTagsData();
         }
 
 
@@ -98,7 +70,7 @@ namespace MorfAr.Web
         {
             IEnumerable<Item> result = null;
 
-            if (search == "")
+            if (search == null)
             {
                 result = items.Where(f => f.place.locationId == locationId);
             }

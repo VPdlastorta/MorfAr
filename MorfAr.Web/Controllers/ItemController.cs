@@ -11,12 +11,11 @@ namespace MorfAr.Web.Controllers
     public class ItemController : ApiController
     {
         private readonly FakeDataContext dataCtx = null;
-        private readonly FakeDataFromJson jsonCtx = null;
+        
 
         public ItemController()
         {
             dataCtx = new FakeDataContext();
-            jsonCtx = new FakeDataFromJson();
         }
         // GET: api/Item
         [HttpGet]
