@@ -17,43 +17,12 @@ namespace MorfAr.Web
         public FakeDataContext()
         {
             jsonCtx = new LoadDataFromJson();
-            BuildItems();
-            BuildTags();
-            BuildLocations();
-
-        }
-
-        private void BuildLocations()
-        {
+            items = jsonCtx.GetItemsData();
+            tags = jsonCtx.GetTagsData();
             locations = jsonCtx.GetLocations();
         }
 
-        private void BuildTags()
-        {
-            tags = new List<ItemTag>();
-
-            tags.Add(new ItemTag()
-            {
-                tagId = 4,
-                tagName = "marisco",
-                tagType = "comida"
-            });
-
-            tags.Add(new ItemTag()
-            {
-                tagId = 1,
-                tagName = "cerveza ip",
-                tagType = "beverage"
-            });
-        }
-
-        private void BuildItems()
-        {
-            items = jsonCtx.GetItemsData();
-            tags = jsonCtx.GetTagsData();
-        }
-
-
+        
         public IList<Item> GetItemsByFilter(string search, int locationId)
         {
             IEnumerable<Item> result = null;

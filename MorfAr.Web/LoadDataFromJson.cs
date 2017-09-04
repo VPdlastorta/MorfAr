@@ -16,7 +16,9 @@ namespace MorfAr.Web
 
         public IList<Item> GetItemsData()
         {
-            using (StreamReader r = new StreamReader("C:\\Projects\\MorfAr\\MorfAr.Web\\Jsons\\Items.json"))
+            var currentPath = HttpContext.Current.Server.MapPath("~/");
+
+            using (StreamReader r = new StreamReader(Path.Combine(currentPath, "Jsons\\Items.json")))
             {
                 string json = r.ReadToEnd();
                 Items = JsonConvert.DeserializeObject<List<Item>>(json);
@@ -26,7 +28,9 @@ namespace MorfAr.Web
 
         public IList<ItemTag> GetTagsData()
         {
-            using (StreamReader r = new StreamReader("C:\\Projects\\MorfAr\\MorfAr.Web\\Jsons\\Tags.json"))
+            var currentPath = HttpContext.Current.Server.MapPath("~/");
+
+            using (StreamReader r = new StreamReader(Path.Combine(currentPath, "Jsons\\Tags.json")))
             {
                 string json = r.ReadToEnd();
                 ItemTags = JsonConvert.DeserializeObject<List<ItemTag>>(json);
@@ -36,7 +40,9 @@ namespace MorfAr.Web
 
         public IList<Location> GetLocations()
         {
-            using (StreamReader r = new StreamReader("C:\\Projects\\MorfAr\\MorfAr.Web\\Jsons\\Locations.json"))
+            var currentPath = HttpContext.Current.Server.MapPath("~/");
+
+            using (StreamReader r = new StreamReader(Path.Combine(currentPath, "Jsons\\Locations.json")))
             {
                 string json = r.ReadToEnd();
                 Locations = JsonConvert.DeserializeObject<List<Location>>(json);
