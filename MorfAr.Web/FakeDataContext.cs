@@ -49,11 +49,6 @@ namespace MorfAr.Web
 
         public IList<ItemTag> GetItemsTag(string search, string type)
         {
-            if (search == null)
-            {
-                search = string.Empty;
-            }
-
             IEnumerable<ItemTag> result = null;
 
             result = tags.Where(f => f.tagName.IndexOf(search, StringComparison.OrdinalIgnoreCase) >= 0).ToList();
