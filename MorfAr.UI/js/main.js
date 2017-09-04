@@ -1,27 +1,41 @@
-var getLocation = $.getJSON('http://vpros-dlastorta/morfar/api/Item?search=test&location=test', function (data) {
-
-    var items = [];
-    $.each(data, function (key, val) {
-        items.push("<li id='" + key + "'>" + val + "</li>");
+(function () {
+     var option = 'all';
+     var url = "http://vpros-dlastorta/MorfAr/api/ItemTag?type=all";
+     var foodList = $.getJSON(url, function (data) {
+        var items = [];
+        $.each(data, function (i) {
+            var currentFood = foodList.responseJSON[i].tagName;
+            $("#foodList").append("<option value='" + currentFood + "' />");
+        });
     });
-    $("<ul/>", {
-        "class": "my-new-list",
-        html: items.join("")
-    }).appendTo("body");
-});
-console.log(getLocation);
+     $('.checkbox').on('change', function() {
+        option= ($('input[type=radio]:checked').val()); 
+        url = "http://vpros-dlastorta/MorfAr/api/ItemTag?type="+option;
+        var foodList = $.getJSON(url, function (data) {
+            $("#foodList").empty();
+            $('#foodFilter').val('');
+            var items = [];
+            $.each(data, function (i) {
+                var currentFood = foodList.responseJSON[i].tagName;
+                $("#foodList").append("<option value='" + currentFood + "' />");
+            });
+        });
+     });
 
-function myFunction() {
-    var xhr = new XMLHttpRequest();
-    xhr.open("GET", getLocation, true);   // 
-    alert("test");
-    xhr.send();
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState == 4 && xhr.status == 200) {
-            var myArray = JSON.parse(xhr.responseText);
+})();
 
-            console.log(myArray);
+(function () {
+    var citiesList = $.getJSON('http://vpros-dlastorta/MorfAr/api/Location', function (data) {
+        var items = [];
+        $.each(data, function (i) {
+            var currentCity = citiesList.responseJSON[i];
+            $("#citiesList").append("<option locationId='" + currentCity.locationId + "' value='"+currentCity.locationName+"'>" + currentCity.locationName + "</option>");
+        });
+    });
+})();
 
-        };
-    };
-};
+function doSearch(){
+    var searchItem = $('#foodFilter').val();
+    var searchLocation = $('#citiesList > option').attr( "locationId" );
+    var searchUrl = "http://vpros-dlastorta/MorfAr/api/Item?search="+searchItem+"&locationId="+searchLocation;
+}
