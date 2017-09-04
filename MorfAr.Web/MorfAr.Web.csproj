@@ -249,6 +249,11 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Photos\0001-EmpanadaVerdeo.jpg" />
+    <Content Include="Photos\0002-FideosConCamarones.jpg" />
+    <Content Include="Photos\0003-MostachiolesConMixta.jpeg" />
+    <Content Include="Photos\0004-Carbonara.jpg" />
+    <Content Include="Photos\0005-TacosCarne.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
