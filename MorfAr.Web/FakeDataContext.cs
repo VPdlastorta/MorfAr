@@ -12,11 +12,11 @@ namespace MorfAr.Web
         public IList<ItemTag> tags { get; set; }
         public IList<Location> locations { get; set; }
 
-        private FakeDataFromJson jsonCtx = null;
+        private LoadDataFromJson jsonCtx = null;
 
         public FakeDataContext()
         {
-            jsonCtx = new FakeDataFromJson();
+            jsonCtx = new LoadDataFromJson();
             BuildItems();
             BuildTags();
             BuildLocations();
@@ -25,19 +25,7 @@ namespace MorfAr.Web
 
         private void BuildLocations()
         {
-            locations = new List<Location>();
-
-            locations.Add(new Location()
-            {
-                locationId = 1,
-                locationName = "Rosario, Sta Fe"
-            });
-            locations.Add(new Location()
-            {
-                locationId = 2,
-                locationName = "CABA, Bs As"
-            });
-
+            locations = jsonCtx.GetLocations();
         }
 
         private void BuildTags()

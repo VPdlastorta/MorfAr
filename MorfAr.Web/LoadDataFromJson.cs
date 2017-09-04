@@ -8,10 +8,11 @@ using Newtonsoft.Json;
 
 namespace MorfAr.Web
 {
-    public class FakeDataFromJson
+    public class LoadDataFromJson
     {
         public IList<Item> Items;
         public IList<ItemTag> ItemTags;
+        public IList<Location> Locations { get; set; }
 
         public IList<Item> GetItemsData()
         {
@@ -32,5 +33,17 @@ namespace MorfAr.Web
             }
             return ItemTags;
         }
+
+        public IList<Location> GetLocations()
+        {
+            using (StreamReader r = new StreamReader("C:\\Projects\\MorfAr\\MorfAr.Web\\Jsons\\Locations.json"))
+            {
+                string json = r.ReadToEnd();
+                Locations = JsonConvert.DeserializeObject<List<Location>>(json);
+            }
+            return Locations;
+        }
+
+        
     }
 }
