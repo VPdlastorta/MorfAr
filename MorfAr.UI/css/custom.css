@@ -1,30 +1,8 @@
-@media(min-width: 1032px) {
-	.container.fluid-md { width: auto; }
+.bg-discover { background-color: #3C454F;
+	background-position: center;
+	background-repeat: no-repeat;
+	
 }
-
-section.content { margin-top: 50px; margin-bottom: 50px; }
-section.content-10 { margin-top: 10px; margin-bottom: 10px; }
-section.content-15 { margin-top: 15px; margin-bottom: 15px; }
-section.content-30 { margin-top: 30px; margin-bottom: 30px; }
-
-.border-grey { border:1px solid #d6d6d6}
-
-.bg-white { background-color:#fff; }
-.bg-grey { background-color:#e7e7e7; }
-.bg-dark-grey { background-color:#b8b8b8; }
-.bg-darker-grey { background-color:#313131; }
-.bg-primary { background-color: #A3E186; color: #FFF; }
-
-.bg-bar-and-restaurant { background-image: url('../img/bar-and-restaurant.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat; }
-.bg-texture-steel { color: #FFF; background-image: url('../img/texture-steel.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat; }
-.bg-link-benefits { background-image: url('../img/link-benefits.jpg'); }
-.bg-link-benefit40 { background-image: url('../img/link-benefit40.jpg'); }
-.bg-link-diadelamigo { background-image: url('../img/link-diadelamigo.jpg'); }
-.bg-link-tienda-oleo { background-image: url('../img/link-tienda-oleo.png'); }
-.bg-link-community { background-image: url('../img/link-community.jpg'); }
-.bg-link-testimony { background-image: url('../img/link-testimony.jpg'); }
-.bg-adds { background-image: url('../img/adds.jpg'); background-size: 100%; background-position: center center; background-repeat: no-repeat; }
-.bg-discover { background-image: url('../img/discover.png'); background-color: #343434; background-position: center; background-repeat: no-repeat;}
 @media(max-width: 1031px) {
 	.bg-discover { background-size: 500px auto; }
 }
