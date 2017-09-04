@@ -25,7 +25,7 @@ namespace MorfAr.Web
 
         public IList<ItemTag> GetTagsData()
         {
-            using (StreamReader r = new StreamReader("C:\\Projects\\MorfAr\\MorfAr.Web\\Jsons\\Jsons\\Tags.json"))
+            using (StreamReader r = new StreamReader("C:\\Projects\\MorfAr\\MorfAr.Web\\Jsons\\Tags.json"))
             {
                 string json = r.ReadToEnd();
                 ItemTags = JsonConvert.DeserializeObject<List<ItemTag>>(json);

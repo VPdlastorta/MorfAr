@@ -28,7 +28,7 @@
           <SQLDebugging>False</SQLDebugging>
           <ExternalProgram>
           </ExternalProgram>
-          <StartExternalURL>http://localhost/MorfAr</StartExternalURL>
+          <StartExternalURL>http://localhost/MorfArDev</StartExternalURL>
           <StartCmdLineArguments>
           </StartCmdLineArguments>
           <StartWorkingDirectory>
@@ -39,7 +39,9 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>53900</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost/MorfAr</IISUrl>
+          <IISUrl>http://localhost/MorfArDev</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost/MorfArDev</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

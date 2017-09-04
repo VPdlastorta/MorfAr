@@ -10,12 +10,13 @@ namespace MorfAr.Web
     {
         public IList<Item> items { get; set; }
         public IList<ItemTag> tags { get; set; }
-
         public IList<Location> locations { get; set; }
 
+        private FakeDataFromJson jsonCtx = null;
 
         public FakeDataContext()
         {
+            jsonCtx = new FakeDataFromJson();
             BuildItems();
             BuildTags();
             BuildLocations();
@@ -47,34 +48,38 @@ namespace MorfAr.Web
             {
                 tagId = 4,
                 tagName = "marisco",
-                tagType = "comidad"
+                tagType = "comida"
+            });
+
+            tags.Add(new ItemTag()
+            {
+                tagId = 1,
+                tagName = "cerveza ip",
+                tagType = "beverage"
             });
         }
 
         private void BuildItems()
         {
-            items = new List<Item>();
-
-            items.Add(new Item()
-            {
-                itemId = 1,
-                itemName = "Empanada Verdeo",
-            });
-
-            items.Add(new Item()
-            {
-                itemId = 2,
-                itemName = "Fideos con Mariscos"
-            });
-
+            items = jsonCtx.GetItemsData();
+            tags = jsonCtx.GetTagsData();
         }
 
 
-        public IList<Item> GetItemsByFilter(string search, string localtion)
+        public IList<Item> GetItemsByFilter(string search, int locationId)
         {
-            var result = items;
+            IEnumerable<Item> result = null;
 
-            return result;
+            if (search == null)
+            {
+                result = items.Where(f => f.place.locationId == locationId);
+            }
+            else
+            {
+                result = items.Where(f => f.itemTags.Contains(search) && f.place.locationId == locationId);
+            }
+
+            return result.OrderBy(f => f.scoreAvg).ToList();
         }
 
         public IList<Location> GetLocation()
@@ -86,7 +91,16 @@ namespace MorfAr.Web
 
         public IList<ItemTag> GetItemsTag(string type)
         {
-            var result = tags;
+            var result = new List<ItemTag>();
+
+            if (type == "all")
+            {
+                result = tags.ToList();
+            }
+            else
+            {
+                result = tags.Where(f => f.tagType == type).ToList();
+            }
 
             return result;
         }
