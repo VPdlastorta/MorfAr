@@ -424,6 +424,12 @@ body {
 	color:#fff;
 }
 
+.accordion-section-title span{
+    float: right;
+	
+	
+}
+
 .accordion-section-title.active, .accordion-section-title:hover {
 	background:#3C454F;
 	color:#FF8800;
