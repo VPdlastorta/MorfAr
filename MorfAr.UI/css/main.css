@@ -338,10 +338,11 @@ img.cover-y {height: 100%; width: auto;}
 	max-width: 100%;
 }
 
-.resultMap iframe {
+.resultMap {
     max-width: 100%;
     height: auto;
 }
+
 #comments{
 	padding-left: 0;
 }
@@ -362,8 +363,14 @@ img.cover-y {height: 100%; width: auto;}
 	-webkit-box-shadow: 2px 2px 4px #888;
 	-moz-box-shadow: 2px 2px 4px #888;
 	box-shadow: 2px 2px 4px #888;
+	-webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
-
+.comment:hover {
+	background-color: #fff;
+}
 
 
 /*------------------------------------*\
@@ -426,7 +433,7 @@ body {
 
 .accordion-section-title span{
     float: right;
-	
+
 	
 }
 
